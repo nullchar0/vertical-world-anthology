@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vertical World — Climbing Anthology</title>
+  <meta name="description" content="Anthology of people who shaped mountaineering, rock climbing, bouldering and related disciplines (1900–2026)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;0,7..72,700;1,7..72,400&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <p class="brand-mark" data-i18n="brand">Vertical World</p>
+        <p class="brand-sub" data-i18n="brandSub">Anthology 1900–2026</p>
+      </div>
+      <nav class="toolbar" aria-label="Language">
+        <button type="button" class="lang-btn" data-lang="ru" aria-pressed="true">RU</button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="page">
+    <aside class="toc" id="toc" aria-label="Contents"></aside>
+    <article class="anthology" id="anthology" aria-live="polite">
+      <p class="loading" data-i18n="loading">Loading…</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p data-i18n="footerCredits">Portraits are shown only when a license allows reuse. Each image carries credit and a link to the source.</p>
+    <p><span data-i18n="footerMedia">Media catalog: </span><a href="media/catalog.json">catalog.json</a>
+      · <a href="https://github.com/nullchar0/vertical-world-anthology">GitHub</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

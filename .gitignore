@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+*.log
+
+# internal working notes (not part of the public site)
+FACTCHECK_AND_SUPPLEMENT_2026-09.md
+climbing_stars_report_claude.md
+climbing_stars_report_claude.ORIGINAL.md
