@@ -1188,6 +1188,24 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:Jean_Troillet",
+    "slug": "jean-troillet",
+    "names": {
+      "ru": "Жан Труайе",
+      "en": "Jean Troillet"
+    },
+    "file": "media/portraits/jean-troillet.jpg",
+    "artist": "Fanny Schertzer",
+    "credit": "Fanny Schertzer",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AJean_Troillet.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AJean_Troillet.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_short": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "wiki_file": "File:Jean Troillet.jpg",
+    "note": "Commons free portrait; verified then web-compressed."
+  },
+  {
     "id": "wiki:Jerry_Moffatt",
     "slug": "jerry-moffatt",
     "names": {
@@ -1456,6 +1474,24 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Leszek_Cichy",
+    "slug": "leszek-cichy",
+    "names": {
+      "ru": "Лешек Цихы",
+      "en": "Leszek Cichy"
+    },
+    "file": "media/portraits/leszek-cichy.jpg",
+    "artist": "Adrian Tync",
+    "credit": "Adrian Tync",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ALeszek_Cichy.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ALeszek_Cichy.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_short": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "wiki_file": "File:Leszek Cichy.jpg",
+    "note": "Commons free portrait; verified then web-compressed."
   },
   {
     "id": "wiki:Lhakpa_Sherpa",
