@@ -1332,6 +1332,24 @@
     "found_via": "wikipedia-pageimage"
   },
   {
+    "id": "wiki:Kami_Rita_Sherpa",
+    "slug": "kami-rita-sherpa",
+    "names": {
+      "ru": "Ками Рита Шерпа",
+      "en": "Kami Rita Sherpa"
+    },
+    "file": "media/portraits/kami-rita-sherpa.jpg",
+    "artist": "Vlvescovo",
+    "credit": "Vlvescovo",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AKami_Rita_Sherpa_Mt_Everest_Summit_May_2010.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AKami_Rita_Sherpa_Mt_Everest_Summit_May_2010.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_short": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "wiki_file": "File:Kami Rita Sherpa Mt Everest Summit May 2010.jpg",
+    "note": "Commons free portrait from Grok lead; verified; web-compressed."
+  },
+  {
     "id": "wiki:Katie_Brown_(climber)",
     "slug": "katie-brown-climber",
     "names": {
@@ -1655,6 +1673,24 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "Marko_Prezelj.jpg",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Maurice_Herzog",
+    "slug": "maurice-herzog",
+    "names": {
+      "ru": "Морис Эрцог",
+      "en": "Maurice Herzog"
+    },
+    "file": "media/portraits/maurice-herzog.jpg",
+    "artist": "Marcel Ichac",
+    "credit": "Marcel Ichac",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AMaharadjah_du_N%C3%A9pal%2C_Herzog_et_de_Noyelle-cropped.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AMaharadjah_du_N%C3%A9pal%2C_Herzog_et_de_Noyelle-cropped.jpg",
+    "license": "Public domain",
+    "license_short": "Public domain",
+    "license_url": "",
+    "wiki_file": "File:Maharadjah du Népal, Herzog et de Noyelle-cropped.jpg",
+    "note": "Commons free portrait from Grok lead; verified; web-compressed."
   },
   {
     "id": "wiki:Maurizio_Zanolla",
@@ -2447,6 +2483,24 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "ext:3fcdff7e2ffa",
+    "slug": "yevgeny-vinogradsky",
+    "names": {
+      "ru": "Евгений Виноградский",
+      "en": "Yevgeny Vinogradsky"
+    },
+    "file": "media/portraits/yevgeny-vinogradsky.jpg",
+    "artist": "MariaSuetina",
+    "credit": "MariaSuetina",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AEvgeniy_Vinogradskiy.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AEvgeniy_Vinogradskiy.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_short": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "wiki_file": "File:Evgeniy Vinogradskiy.jpg",
+    "note": "Commons free portrait from Perplexity lead; web-compressed."
   },
   {
     "id": "wiki:Yuichiro_Miura",
