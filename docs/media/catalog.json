@@ -36,6 +36,42 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:Ai_Mori",
+    "slug": "ai-mori",
+    "names": {
+      "ru": "Аи Мори",
+      "en": "Ai Mori"
+    },
+    "file": "media/portraits/ai-mori.png",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://en.wikipedia.org/wiki/Ai_Mori",
+    "commons_url": "https://en.wikipedia.org/wiki/Ai_Mori",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Akiyo_Noguchi",
+    "slug": "akiyo-noguchi",
+    "names": {
+      "ru": "Акиё Ногути",
+      "en": "Akiyo Noguchi"
+    },
+    "file": "media/portraits/akiyo-noguchi.jpg",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://en.wikipedia.org/wiki/Akiyo_Noguchi",
+    "commons_url": "https://en.wikipedia.org/wiki/Akiyo_Noguchi",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
     "id": "wiki:Alain_Mesili",
     "slug": "alain-mesili",
     "names": {
@@ -47,6 +83,24 @@
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/Alain_Mesili",
     "commons_url": "https://en.wikipedia.org/wiki/Alain_Mesili",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Aleksandra_Mirosław",
+    "slug": "aleksandra-miros-aw",
+    "names": {
+      "ru": "Александра Мирослав",
+      "en": "Aleksandra Mirosław"
+    },
+    "file": "media/portraits/aleksandra-miros-aw.jpg",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://en.wikipedia.org/wiki/Aleksandra_Mirosław",
+    "commons_url": "https://en.wikipedia.org/wiki/Aleksandra_Mirosław",
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
@@ -281,6 +335,24 @@
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/Bernd_Arnold",
     "commons_url": "https://en.wikipedia.org/wiki/Bernd_Arnold",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Brette_Harrington",
+    "slug": "brette-harrington",
+    "names": {
+      "ru": "Бретт Харрингтон",
+      "en": "Brette Harrington"
+    },
+    "file": "media/portraits/brette-harrington.jpg",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://en.wikipedia.org/wiki/Brette_Harrington",
+    "commons_url": "https://en.wikipedia.org/wiki/Brette_Harrington",
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
@@ -666,6 +738,24 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:Харила,_Кристин",
+    "slug": "harila-kristin",
+    "names": {
+      "ru": "Кристин Харила",
+      "en": "Kristin Harila"
+    },
+    "file": "media/portraits/harila-kristin.jpg",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://ru.wikipedia.org/wiki/Харила,_Кристин",
+    "commons_url": "https://ru.wikipedia.org/wiki/Харила,_Кристин",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
     "id": "wiki:Harish_Kapadia",
     "slug": "harish-kapadia",
     "names": {
@@ -738,6 +828,24 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:Ines_Papert",
+    "slug": "ines-papert",
+    "names": {
+      "ru": "Инэс Паперт",
+      "en": "Ines Papert"
+    },
+    "file": "media/portraits/ines-papert.jpg",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://en.wikipedia.org/wiki/Ines_Papert",
+    "commons_url": "https://en.wikipedia.org/wiki/Ines_Papert",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
     "id": "wiki:Jain_Kim",
     "slug": "jain-kim",
     "names": {
@@ -785,6 +893,24 @@
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/John_Bachar",
     "commons_url": "https://en.wikipedia.org/wiki/John_Bachar",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Jokke_Sommer",
+    "slug": "jokke-sommer",
+    "names": {
+      "ru": "Йокке Зоммер",
+      "en": "Jokke Sommer"
+    },
+    "file": "media/portraits/jokke-sommer.jpg",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://en.wikipedia.org/wiki/Jokke_Sommer",
+    "commons_url": "https://en.wikipedia.org/wiki/Jokke_Sommer",
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
@@ -936,6 +1062,24 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:Margo_Hayes",
+    "slug": "margo-hayes",
+    "names": {
+      "ru": "Марго Хейс",
+      "en": "Margo Hayes"
+    },
+    "file": "media/portraits/margo-hayes.jpg",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://en.wikipedia.org/wiki/Margo_Hayes",
+    "commons_url": "https://en.wikipedia.org/wiki/Margo_Hayes",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
     "id": "wiki:Marko_Prezelj",
     "slug": "marko-prezelj",
     "names": {
@@ -972,6 +1116,24 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:Nalle_Hukkataival",
+    "slug": "nalle-hukkataival",
+    "names": {
+      "ru": "Налле Хуккатаивал",
+      "en": "Nalle Hukkataival"
+    },
+    "file": "media/portraits/nalle-hukkataival.jpg",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://en.wikipedia.org/wiki/Nalle_Hukkataival",
+    "commons_url": "https://en.wikipedia.org/wiki/Nalle_Hukkataival",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
     "id": "wiki:Nazir_Sabir",
     "slug": "nazir-sabir",
     "names": {
@@ -983,6 +1145,24 @@
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/Nazir_Sabir",
     "commons_url": "https://en.wikipedia.org/wiki/Nazir_Sabir",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Nives_Meroi",
+    "slug": "nives-meroi",
+    "names": {
+      "ru": "Нивес Мерой",
+      "en": "Nives Meroi"
+    },
+    "file": "media/portraits/nives-meroi.jpg",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://en.wikipedia.org/wiki/Nives_Meroi",
+    "commons_url": "https://en.wikipedia.org/wiki/Nives_Meroi",
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
@@ -1019,6 +1199,24 @@
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/Oliver_Perry-Smith",
     "commons_url": "https://en.wikipedia.org/wiki/Oliver_Perry-Smith",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Pan_Yufei",
+    "slug": "pan-yufei",
+    "names": {
+      "ru": "Пань Юфэй",
+      "en": "Pan Yufei"
+    },
+    "file": "media/portraits/pan-yufei.jpg",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://en.wikipedia.org/wiki/Pan_Yufei",
+    "commons_url": "https://en.wikipedia.org/wiki/Pan_Yufei",
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
@@ -1116,6 +1314,24 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:Shauna_Coxsey",
+    "slug": "shauna-coxsey",
+    "names": {
+      "ru": "Шона Кокси",
+      "en": "Shauna Coxsey"
+    },
+    "file": "media/portraits/shauna-coxsey.jpg",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://en.wikipedia.org/wiki/Shauna_Coxsey",
+    "commons_url": "https://en.wikipedia.org/wiki/Shauna_Coxsey",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
     "id": "wiki:Silvo_Karo",
     "slug": "silvo-karo",
     "names": {
@@ -1127,6 +1343,42 @@
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/Silvo_Karo",
     "commons_url": "https://en.wikipedia.org/wiki/Silvo_Karo",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Song_Yiling",
+    "slug": "song-yiling",
+    "names": {
+      "ru": "Сун Илинь",
+      "en": "Song Yiling"
+    },
+    "file": "media/portraits/song-yiling.jpg",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://en.wikipedia.org/wiki/Song_Yiling",
+    "commons_url": "https://en.wikipedia.org/wiki/Song_Yiling",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Sorato_Anraku",
+    "slug": "sorato-anraku",
+    "names": {
+      "ru": "Сорато Анраку",
+      "en": "Sorato Anraku"
+    },
+    "file": "media/portraits/sorato-anraku.jpg",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://en.wikipedia.org/wiki/Sorato_Anraku",
+    "commons_url": "https://en.wikipedia.org/wiki/Sorato_Anraku",
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
@@ -1199,6 +1451,42 @@
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/Tommy_Caldwell",
     "commons_url": "https://en.wikipedia.org/wiki/Tommy_Caldwell",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Tomoa_Narasaki",
+    "slug": "tomoa-narasaki",
+    "names": {
+      "ru": "Томоа Нарасаки",
+      "en": "Tomoa Narasaki"
+    },
+    "file": "media/portraits/tomoa-narasaki.jpg",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://en.wikipedia.org/wiki/Tomoa_Narasaki",
+    "commons_url": "https://en.wikipedia.org/wiki/Tomoa_Narasaki",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Ueli_Gegenschatz",
+    "slug": "ueli-gegenschatz",
+    "names": {
+      "ru": "Уэли Гегеншац",
+      "en": "Ueli Gegenschatz"
+    },
+    "file": "media/portraits/ueli-gegenschatz.jpg",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://de.wikipedia.org/wiki/Ueli_Gegenschatz",
+    "commons_url": "https://de.wikipedia.org/wiki/Ueli_Gegenschatz",
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
@@ -1289,6 +1577,24 @@
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/Wang_Fuzhou",
     "commons_url": "https://en.wikipedia.org/wiki/Wang_Fuzhou",
+    "license": "Free / open license (Wikipedia pilicense=free)",
+    "license_short": "free",
+    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "wiki_file": "",
+    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:William_Bosi",
+    "slug": "william-bosi",
+    "names": {
+      "ru": "Уилл Боси",
+      "en": "William Bosi"
+    },
+    "file": "media/portraits/william-bosi.jpg",
+    "artist": "Wikimedia contributor (see source file page)",
+    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
+    "source_url": "https://en.wikipedia.org/wiki/William_Bosi",
+    "commons_url": "https://en.wikipedia.org/wiki/William_Bosi",
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",

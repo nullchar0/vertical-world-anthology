@@ -43,24 +43,50 @@ python3 scripts/rebuild_catalog_from_portraits.py
 
 ## Публикация на GitHub Pages
 
-Аккаунт проекта: **[nullchar0](https://github.com/nullchar0)**.
+Аккаунт проекта: **[nullchar0](https://github.com/nullchar0)**.  
+Основной аккаунт машины (**SillyHatsOnly**) можно оставить активным по умолчанию — для *этого* репозитория используем nullchar0.
 
 Ожидаемый URL сайта:
 
 `https://nullchar0.github.io/vertical-world-anthology/`
 
+### Два аккаунта в `gh` (рекомендуется)
+
 ```bash
-# войти именно под nullchar0
-gh auth logout -h github.com -u SillyHatsOnly 2>/dev/null || true
+# 1) починить/оставить основной аккаунт активным
 gh auth login -h github.com
+# выбери SillyHatsOnly → сделай его active (default)
 
-git add .
-git commit -m "Add Vertical World anthology GitHub Pages site"
-gh repo create vertical-world-anthology --public --source=. --remote=origin --push
+# 2) ДОБАВИТЬ второй аккаунт, не выкидывая первый
+gh auth login -h github.com
+# выбери nullchar0 (Add an account)
 
-# Pages: Settings → Pages → Deploy from branch main / folder /docs
-# или через CLI:
-gh api -X POST repos/nullchar0/vertical-world-anthology/pages \
+gh auth status
+# Active: SillyHatsOnly
+# nullchar0 тоже Logged in
+```
+
+В этом репозитории уже прописано локально:
+
+- `github.account=nullchar0` (новые версии `gh` подхватят pin)
+- `credential.https://github.com.username=nullchar0`
+- `user.name=nullchar0`
+
+Пуш без смены глобального active-аккаунта:
+
+```bash
+# из корня проекта
+./scripts/push-nullchar0.sh
+# или вручную:
+GH_TOKEN="$(gh auth token --user nullchar0)" gh repo create vertical-world-anthology --public --source=. --remote=origin --push
+# если remote уже есть:
+GH_TOKEN="$(gh auth token --user nullchar0)" git push -u origin main
+```
+
+Pages (`/docs`):
+
+```bash
+GH_TOKEN="$(gh auth token --user nullchar0)" gh api -X POST repos/nullchar0/vertical-world-anthology/pages \
   -f build_type=legacy -f source[branch]=main -f source[path]=/docs
 ```
 
