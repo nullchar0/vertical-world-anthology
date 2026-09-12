@@ -213,6 +213,17 @@ video {
   overflow-wrap: anywhere;
 }
 
+/* Markdown --- before ## would double the section rule */
+.anthology hr:has(+ h2) {
+  display: none;
+}
+
+.anthology hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 1.5rem 0;
+}
+
 .anthology h3 {
   font-family: var(--sans);
   font-size: 1.05rem;

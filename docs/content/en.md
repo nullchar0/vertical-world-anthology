@@ -24,7 +24,6 @@ Speed 14×8000, record Sherpa ascents and media operators also belong in the sur
 
 After each name — a link: Russian Wikipedia → English → any available → official site / specialist bio.
 
----
 
 ## Grades: how to read the numbers and letters in the text
 
@@ -49,7 +48,6 @@ One paragraph may mix systems (e.g. “UIAA X / 8a”): that is normal — autho
 
 </details>
 
----
 
 ## Before 1900: foundations
 
@@ -63,7 +61,6 @@ One paragraph may mix systems (e.g. “UIAA X / 8a”): that is normal — autho
 
 **[Tita Piaz](https://it.wikipedia.org/wiki/Tita_Piaz)** (“Devil of the Dolomites,” Italy, 1879–1950) — early free and solo climbing; a vivid political and ethical antipode to twentieth-century state mountaineering.
 
----
 
 ## 1900–1905: quiet transition
 
@@ -549,7 +546,6 @@ Philosophy of full autonomy (“no one outside manages my risk”) — one of th
 
 **Patagonia in the 2020s** continues the Garibotti/Haley/Villanueva line: free ascents of old sieges of the 1980s remain the ethical horizon — *cleaner*, not necessarily faster.
 
----
 
 ## Matrix of philosophies
 
