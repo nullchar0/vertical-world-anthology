@@ -289,6 +289,22 @@ video {
   min-width: 0;
 }
 
+.context-card {
+  margin: 1.25rem 0;
+  padding: 0.85rem 0 0.85rem;
+  border-top: 1px solid var(--line);
+  max-width: calc(var(--measure) + 9rem);
+}
+
+.context-card > p {
+  margin: 0;
+  max-width: var(--measure);
+}
+
+.context-card > p > strong:first-child {
+  font-family: var(--sans);
+}
+
 .person-card + .person-card {
   margin-top: 0;
 }
@@ -329,10 +345,12 @@ video {
 .portrait {
   margin: 0;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .portrait-name {
-  margin: 0 0 0.3rem;
+  margin: 0;
   font-family: var(--sans);
   font-size: 0.72rem;
   font-weight: 700;
@@ -354,6 +372,7 @@ video {
   overflow: hidden;
   line-height: 0;
   position: relative;
+  flex: 0 0 auto;
 }
 
 .portrait-zoom:focus-visible {
@@ -373,6 +392,9 @@ video {
 
 .portrait figcaption {
   margin-top: 0.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
   font-family: var(--sans);
   font-size: 0.65rem;
   line-height: 1.35;
@@ -384,26 +406,25 @@ video {
   color: inherit;
 }
 
+.portrait-credit {
+  margin: 0;
+}
+
 .portrait-missing {
   aspect-ratio: 3 / 4;
   border-radius: var(--radius);
   border: 1px dashed #ccc;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.35rem;
+  display: grid;
+  place-items: center;
   text-align: center;
   padding: 0.45rem;
   font-family: var(--sans);
   font-size: 0.68rem;
   color: var(--muted);
   background: #fafafa;
-}
-
-.portrait-missing .portrait-name {
-  margin: 0;
-  color: var(--ink);
+  flex: 0 0 auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .portrait-missing-label {

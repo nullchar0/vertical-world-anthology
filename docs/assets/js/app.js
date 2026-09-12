@@ -108,7 +108,13 @@
       href.includes("wikipedia.org") ||
       href.includes("alpklubspb") ||
       href.includes("russianclimb") ||
-      href.includes("babanov.com")
+      href.includes("babanov.com") ||
+      href.includes("alpinist.com") ||
+      href.includes("americanalpineclub") ||
+      href.includes("scottnoy.") ||
+      href.includes("climbing.co.za") ||
+      href.includes("powercompanyclimbing") ||
+      /thenorthface\.com\/.*\/athletes\//i.test(href)
     );
   }
 
@@ -195,6 +201,26 @@
   }
 
   function portraitDisplayName(href, meta, nodes) {
+    // Prefer nominative names from catalog / people index — never declined link text
+    if (meta && meta.names) {
+      const fromMeta =
+        meta.names[state.lang] ||
+        meta.names.ru ||
+        meta.names.en ||
+        Object.values(meta.names)[0] ||
+        "";
+      if (fromMeta) return String(fromMeta).replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
+    }
+    const byUrl = state.people.find((p) => (p.urls || []).some((u) => urlsMatch(u, href)));
+    if (byUrl && byUrl.names) {
+      const fromPeople =
+        byUrl.names[state.lang] ||
+        byUrl.names.ru ||
+        byUrl.names.en ||
+        Object.values(byUrl.names)[0] ||
+        "";
+      if (fromPeople) return String(fromPeople).replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
+    }
     if (nodes && nodes.length) {
       for (const node of nodes) {
         for (const a of node.querySelectorAll("a[href]")) {
@@ -204,15 +230,6 @@
           if (name) return name;
         }
       }
-    }
-    if (meta && meta.names) {
-      return (
-        meta.names[state.lang] ||
-        meta.names.ru ||
-        meta.names.en ||
-        Object.values(meta.names)[0] ||
-        ""
-      );
     }
     return "";
   }
@@ -224,16 +241,24 @@
       ? `<p class="portrait-name">${escapeHtml(name)}</p>`
       : "";
     if (!meta || !meta.file) {
-      return `<div class="portrait-missing">${nameBit}<span class="portrait-missing-label">${t.noPortrait}</span></div>`;
+      const aria = name ? `${name} — ${t.noPortrait}` : t.noPortrait;
+      return `<figure class="portrait portrait--missing">
+      <div class="portrait-missing" role="img" aria-label="${escapeHtml(aria)}">
+        <span class="portrait-missing-label">${t.noPortrait}</span>
+      </div>
+      <figcaption>${nameBit}</figcaption>
+    </figure>`;
     }
     const src = mediaSrc(meta.file);
     const alt = name || t.enlarge;
     return `<figure class="portrait">
-      ${nameBit}
       <button type="button" class="portrait-zoom" data-full="${escapeHtml(src)}" aria-label="${escapeHtml(alt)} — ${t.enlarge}">
         <img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy" decoding="async" />
       </button>
-      <figcaption>${creditHTML(meta)}</figcaption>
+      <figcaption>
+        ${nameBit}
+        <p class="portrait-credit">${creditHTML(meta)}</p>
+      </figcaption>
     </figure>`;
   }
 
@@ -278,21 +303,27 @@
     return idx >= 0 && idx <= 24;
   }
 
+  function looksLikeNonPersonWiki(href, linkText) {
+    const key = (wikiKeyFromHref(href) || href || "").toLowerCase();
+    const title = key.replace(/^wiki:/, "");
+    const blob = `${title} ${linkText || ""}`.toLowerCase();
+    return /disaster|north[_ ]face|south[_ ]face|west[_ ]face|east[_ ]face|climbing_disaster|list_of_|category:|столб|stolby|stolbist|столбист|mount_|peak_|wall_of_|gorge|ущелье|ледник|glacier/.test(
+      blob
+    );
+  }
+
   function collectPersonHrefs(nodes) {
     const hrefs = [];
-    nodes.forEach((node) => {
-      node.querySelectorAll("a[href]").forEach((a) => {
-        const href = a.getAttribute("href") || "";
-        if (!isPersonHref(href)) return;
-        // Skip place/route wiki pages that are not in the people index
-        if (!findPortrait(href)) {
-          const known = state.people.find((p) =>
-            (p.urls || []).some((u) => urlsMatch(u, href))
-          );
-          if (!known) return;
-        }
-        if (!hrefs.some((h) => urlsMatch(h, href))) hrefs.push(href);
-      });
+    const lead = nodes[0];
+    if (!lead) return hrefs;
+
+    // All person links in the lead paragraph only (not following context notes)
+    lead.querySelectorAll("a[href]").forEach((a) => {
+      const href = a.getAttribute("href") || "";
+      if (!isPersonHref(href)) return;
+      const name = (a.textContent || "").trim();
+      if (looksLikeNonPersonWiki(href, name)) return;
+      if (!hrefs.some((h) => urlsMatch(h, href))) hrefs.push(href);
     });
     return hrefs;
   }
@@ -307,6 +338,32 @@
     a.replaceWith(document.createTextNode(a.textContent || ""));
   }
 
+  function isContextLead(node) {
+    if (!node || node.tagName !== "P" || node.closest(".person-card, .context-card")) return false;
+    if (isPersonLead(node)) return false;
+    const text = (node.textContent || "").trim();
+    if (text.length < 40) return false;
+    // Bold place / theme at the start: **Хибины…**, **Ущелье Тодра**, **Эль-Потреро…**
+    const strong = node.querySelector(":scope > strong, strong");
+    if (!strong) return false;
+    const prefix = text.slice(0, 48);
+    const label = (strong.textContent || "").trim();
+    if (!label || prefix.indexOf(label) > 8) return false;
+    // Skip if the strong is only a date-like fragment
+    if (/^\d{4}/.test(label)) return false;
+    return true;
+  }
+
+  function enhanceContextBlocks(root) {
+    [...root.querySelectorAll("p")].filter(isContextLead).forEach((p) => {
+      if (p.closest(".context-card, .person-card")) return;
+      const card = document.createElement("aside");
+      card.className = "context-card";
+      p.parentNode.insertBefore(card, p);
+      card.appendChild(p);
+    });
+  }
+
   function enhancePersonBlocks(root) {
     const seen = new Set();
     const leads = [...root.querySelectorAll("p, li")].filter(isPersonLead);
@@ -317,14 +374,10 @@
       if (lead.tagName === "P") {
         let sib = lead.nextElementSibling;
         while (sib) {
-          if (sib.matches("h1, h2, h3, h4, hr, table, details")) break;
-          if (sib.matches("p") && isPersonLead(sib)) break;
+          if (sib.matches("h1, h2, h3, h4, hr, table, details, aside")) break;
+          if (sib.matches("p") && (isPersonLead(sib) || isContextLead(sib))) break;
+          // Keep achievement lists with the person; do not swallow following prose/places
           if (sib.matches("ul, ol, blockquote")) {
-            pieces.push(sib);
-            sib = sib.nextElementSibling;
-            continue;
-          }
-          if (sib.matches("p") && !isPersonLead(sib)) {
             pieces.push(sib);
             sib = sib.nextElementSibling;
             continue;
@@ -778,6 +831,7 @@
       article.innerHTML = marked.parse(md, { mangle: false, headerIds: true });
       ensureHeadingIds(article);
       enhancePersonBlocks(article);
+      enhanceContextBlocks(article);
       buildNameIndex();
       linkifyTableNames(article);
       enhanceTables(article);
@@ -820,12 +874,8 @@
     const btn = e.target.closest(".portrait-zoom");
     if (!btn) return;
     const fig = btn.closest(".portrait");
-    const name = fig ? fig.querySelector(".portrait-name") : null;
     const caption = fig ? fig.querySelector("figcaption") : null;
-    const bits = [];
-    if (name) bits.push(name.outerHTML);
-    if (caption) bits.push(caption.innerHTML);
-    openLightbox(btn.dataset.full, bits.join(""));
+    openLightbox(btn.dataset.full, caption ? caption.innerHTML : "");
   });
 
   lightboxClose.addEventListener("click", closeLightbox);

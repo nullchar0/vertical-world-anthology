@@ -3,7 +3,7 @@
     "id": "wiki:Абалаков,_Евгений_Михайлович",
     "slug": "abalakov-evgenii-mihailovich",
     "names": {
-      "ru": "Евгений Абалаков",
+      "ru": "Евгений Михайлович Абалаков",
       "en": "Yevgeny Abalakov"
     },
     "file": "media/portraits/abalakov-evgenii-mihailovich.jpg",
@@ -21,7 +21,7 @@
     "id": "wiki:Абалаков,_Виталий_Михайлович",
     "slug": "abalakov-vitalii-mihailovich",
     "names": {
-      "ru": "Виталий Абалаков",
+      "ru": "Виталий Михайлович Абалаков",
       "en": "Vitaly Abalakov"
     },
     "file": "media/portraits/abalakov-vitalii-mihailovich.jpg",
@@ -78,7 +78,7 @@
       "ru": "Аи Мори",
       "en": "Ai Mori"
     },
-    "file": "media/portraits/ai-mori.png",
+    "file": "media/portraits/ai-mori.jpg",
     "artist": "Wikimedia contributor (see source file page)",
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/Ai_Mori",
@@ -312,7 +312,7 @@
       "ru": "Арунима Синха",
       "en": "Arunima Sinha"
     },
-    "file": "media/portraits/arunima-sinha.png",
+    "file": "media/portraits/arunima-sinha.jpg",
     "artist": "Wikipedia (en)",
     "credit": "Wikipedia (en)",
     "source_url": "https://en.wikipedia.org/wiki/Arunima_Sinha",
@@ -348,7 +348,7 @@
       "ru": "Ашраф Аман",
       "en": "Ashraf Aman"
     },
-    "file": "media/portraits/ashraf-aman.JPG",
+    "file": "media/portraits/ashraf-aman.jpg",
     "artist": "Wikimedia contributor (see source file page)",
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/Ashraf_Aman",
@@ -399,7 +399,7 @@
     "id": "wiki:%D0%91%D0%B0%D0%BB%D0%B5%D0%B7%D0%B8%D0%BD,_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D0%B8%D0%B9_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
     "slug": "balezin-valerii-viktorovich",
     "names": {
-      "ru": "Валерий Балезин",
+      "ru": "Валерий Викторович Балезин",
       "en": "Valery Balezin"
     },
     "file": "media/portraits/balezin-valerii-viktorovich.jpg",
@@ -417,7 +417,7 @@
     "id": "wiki:Балыбердин,_Владимир_Сергеевич",
     "slug": "balyberdin-vladimir-sergeevich",
     "names": {
-      "ru": "Владимир Балыбердин",
+      "ru": "Владимир Сергеевич Балыбердин",
       "en": "Vladimir Balyberdin"
     },
     "file": "media/portraits/balyberdin-vladimir-sergeevich.jpg",
@@ -600,7 +600,7 @@
       "ru": "Давид Лама",
       "en": "David Lama"
     },
-    "file": "media/portraits/david-lama.JPG",
+    "file": "media/portraits/david-lama.jpg",
     "artist": "Wikimedia contributor (see source file page)",
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/David_Lama",
@@ -798,7 +798,7 @@
       "ru": "Фред Николь",
       "en": "Fred Nicole"
     },
-    "file": "media/portraits/fred-nicole.png",
+    "file": "media/portraits/fred-nicole.jpg",
     "artist": "Wikimedia contributor (see source file page)",
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/Fred_Nicole",
@@ -939,10 +939,10 @@
     "id": "wiki:Hansjörg_Auer",
     "slug": "hansjorg-auer",
     "names": {
-      "ru": "Хансйоргом Ауэром",
+      "ru": "Хансйорг Ауэр",
       "en": "Hansjörg Auer"
     },
-    "file": "media/portraits/hansjorg-auer.JPG",
+    "file": "media/portraits/hansjorg-auer.jpg",
     "artist": "Wikimedia contributor (see source file page)",
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/Hansjörg_Auer",
@@ -1029,7 +1029,7 @@
     "id": "wiki:%D0%A5%D0%BE%D0%BD%D0%BD%D0%BE%D0%BB%D1%8C%D0%B4,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81",
     "slug": "honnold-aleks",
     "names": {
-      "ru": "Алексом Хоннольдом",
+      "ru": "Алекс Хоннольд",
       "en": "Alex Honnold"
     },
     "file": "media/portraits/honnold-aleks.jpg",
@@ -1068,7 +1068,7 @@
       "ru": "Икер Поу",
       "en": "Iker Pou"
     },
-    "file": "media/portraits/iker-pou.png",
+    "file": "media/portraits/iker-pou.jpg",
     "artist": "Wikimedia contributor (see source file page)",
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://es.wikipedia.org/wiki/Iker_Pou",
@@ -1281,7 +1281,7 @@
     "id": "wiki:Крыленко,_Николай_Васильевич",
     "slug": "krylenko-nikolai-vasilevich",
     "names": {
-      "ru": "Николай Крыленко",
+      "ru": "Николай Васильевич Крыленко",
       "en": "Nikolai Krylenko"
     },
     "file": "media/portraits/krylenko-nikolai-vasilevich.jpg",
@@ -1356,7 +1356,7 @@
       "ru": "Курт Диембергер",
       "en": "Kurt Diemberger"
     },
-    "file": "media/portraits/kurt-diemberger.jpeg",
+    "file": "media/portraits/kurt-diemberger.jpg",
     "artist": "Wikimedia contributor (see source file page)",
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/Kurt_Diemberger",
@@ -1423,24 +1423,6 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
-    "id": "wiki:Ludwig_Vörg",
-    "slug": "ludwig-vorg",
-    "names": {
-      "ru": "Людвиг Фёрг",
-      "en": "Ludwig Vörg"
-    },
-    "file": "media/portraits/ludwig-vorg.jpg",
-    "artist": "Wikimedia contributor (see source file page)",
-    "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
-    "source_url": "https://en.wikipedia.org/wiki/Ludwig_Vörg",
-    "commons_url": "https://en.wikipedia.org/wiki/Ludwig_Vörg",
-    "license": "Free / open license (Wikipedia pilicense=free)",
-    "license_short": "free",
-    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
-    "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
-  },
-  {
     "id": "wiki:Lydia_Bradey",
     "slug": "lydia-bradey",
     "names": {
@@ -1465,7 +1447,7 @@
       "ru": "Линн Хилл",
       "en": "Lynn Hill"
     },
-    "file": "media/portraits/lynn-hill.JPG",
+    "file": "media/portraits/lynn-hill.jpg",
     "artist": "Wikimedia contributor (see source file page)",
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/Lynn_Hill",
@@ -1498,7 +1480,7 @@
     "id": "wiki:%D0%9C%D0%B0%D0%BC%D0%BB%D0%B5%D0%B5%D0%B2,_%D0%AE%D1%80%D0%B8%D0%B9_%D0%92%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87",
     "slug": "mamleev-yurii-vitalevich",
     "names": {
-      "ru": "Юрий Мамлеев",
+      "ru": "Юрий Витальевич Мамлеев",
       "en": "Yuri Mamleyev"
     },
     "file": "media/portraits/mamleev-yurii-vitalevich.jpg",
@@ -1555,7 +1537,7 @@
       "ru": "Маурицио Дзанолла, «Маноло»",
       "en": "Maurizio Zanolla, “Manolo”"
     },
-    "file": "media/portraits/maurizio-zanolla.JPG",
+    "file": "media/portraits/maurizio-zanolla.jpg",
     "artist": "Wikimedia contributor (see source file page)",
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/Maurizio_Zanolla",
@@ -1661,7 +1643,7 @@
     "slug": "nawang-gombu-sherpa",
     "names": {
       "ru": "Наванг Гомбу",
-      "en": "Nawang Gombu"
+      "en": "Nawang Gombu Sherpa"
     },
     "file": "media/portraits/nawang-gombu-sherpa.jpg",
     "artist": "See Commons file page",
@@ -1681,7 +1663,7 @@
       "ru": "Назир Сабир",
       "en": "Nazir Sabir"
     },
-    "file": "media/portraits/nazir-sabir.JPG",
+    "file": "media/portraits/nazir-sabir.jpg",
     "artist": "Wikimedia contributor (see source file page)",
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/Nazir_Sabir",
@@ -1825,7 +1807,7 @@
       "ru": "Патрик Эдленже",
       "en": "Patrick Edlinger"
     },
-    "file": "media/portraits/patrick-edlinger.png",
+    "file": "media/portraits/patrick-edlinger.jpg",
     "artist": "Wikimedia contributor (see source file page)",
     "credit": "Retrieved via Wikipedia free pageimage filter; see source for author & license details",
     "source_url": "https://en.wikipedia.org/wiki/Patrick_Edlinger",
@@ -1948,7 +1930,7 @@
     "id": "wiki:Розов,_Валерий_Владимирович",
     "slug": "rozov-valerii-vladimirovich",
     "names": {
-      "ru": "Валерий Розов",
+      "ru": "Валерий Владимирович Розов",
       "en": "Valery Rozov"
     },
     "file": "media/portraits/rozov-valerii-vladimirovich.jpg",
