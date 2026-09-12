@@ -3,7 +3,7 @@
 
 Rules:
   - deceased: YYYY–YYYY (en dash)
-  - living: RU «р. YYYY», EN «b. YYYY»
+  - living: RU «р. YYYY», EN «b. YYYY» (no «жив» / «alive» markers)
   - never invent years; only use docs/media/lifespans.json
 """
 from __future__ import annotations
@@ -25,8 +25,6 @@ LINK_RE = re.compile(
 YEAR_RANGE_RE = re.compile(r"\b(1[89]\d{2}|20\d{2})\s*[–—\-]\s*(1[89]\d{2}|20\d{2})\b")
 BIRTH_RU_RE = re.compile(r"(?:^|[\s,;])р\.\s*(1[89]\d{2}|20\d{2})\b", re.I)
 BIRTH_EN_RE = re.compile(r"(?:^|[\s,;])b\.\s*(1[89]\d{2}|20\d{2})\b", re.I)
-ALIVE_RU_RE = re.compile(r"\bжив(?:а|ы)?\b", re.I)
-ALIVE_EN_RE = re.compile(r"\balive\b", re.I)
 
 NON_PERSON_HINT = re.compile(
     r"(stolb|столб|profile|obituary|comercio|espectador|climb.?za|tnf.?bio|^site$)",
@@ -103,14 +101,6 @@ def ensure_years_in_paren(content: str, life: dict, lang: str) -> str:
         content2 = re.sub(r"\bb\.\s*(1[89]\d{2}|20\d{2})\b", token, content, count=1, flags=re.I)
         if content2 != content:
             return content2
-
-    # Alive markers without birth year → keep marker, add birth
-    if not life.get("death"):
-        if lang == "ru" and ALIVE_RU_RE.search(content) and not BIRTH_RU_RE.search(content) and not YEAR_RANGE_RE.search(content):
-            # «Австрия, жив» → «Австрия, р. 1951, жив»
-            return ALIVE_RU_RE.sub(lambda m: f"{token}, {m.group(0)}", content, count=1)
-        if lang == "en" and ALIVE_EN_RE.search(content) and not BIRTH_EN_RE.search(content) and not YEAR_RANGE_RE.search(content):
-            return ALIVE_EN_RE.sub(lambda m: f"{token}, {m.group(0)}", content, count=1)
 
     if paren_has_years(content, lang):
         return content
