@@ -112,7 +112,7 @@
     }
     return `<figure class="portrait">
       <button type="button" class="portrait-zoom" data-full="${escapeHtml(meta.file)}" aria-label="${t.enlarge}">
-        <img src="${meta.file}" alt="" loading="lazy" decoding="async" width="240" height="320" />
+        <img src="${meta.file}" alt="" loading="lazy" decoding="async" />
       </button>
       <figcaption>${creditHTML(meta)}</figcaption>
     </figure>`;

@@ -234,8 +234,9 @@ body {
 
 .person-card {
   display: grid;
-  grid-template-columns: 6.75rem minmax(0, 1fr);
+  grid-template-columns: 7rem minmax(0, 1fr);
   gap: 0.85rem;
+  align-items: start;
   margin: 1.15rem 0;
   padding: 0.65rem 0;
   border-top: 1px solid var(--line);
@@ -258,16 +259,22 @@ body {
 
 .portrait {
   margin: 0;
+  width: 100%;
 }
 
 .portrait-zoom {
   display: block;
   padding: 0;
+  margin: 0;
   border: 0;
-  background: transparent;
+  background: #eee;
   cursor: zoom-in;
   width: 100%;
+  aspect-ratio: 3 / 4;
   border-radius: var(--radius);
+  overflow: hidden;
+  line-height: 0;
+  position: relative;
 }
 
 .portrait-zoom:focus-visible {
@@ -276,12 +283,14 @@ body {
 }
 
 .portrait img {
+  position: absolute;
+  inset: 0;
   width: 100%;
-  aspect-ratio: 3 / 4;
+  height: 100%;
   object-fit: cover;
-  border-radius: var(--radius);
-  background: #eee;
+  object-position: center top;
   display: block;
+  border-radius: 0;
 }
 
 .portrait figcaption {
@@ -442,7 +451,7 @@ body.lightbox-open {
   }
 
   .person-card {
-    grid-template-columns: 5.25rem minmax(0, 1fr);
+    grid-template-columns: 5.75rem minmax(0, 1fr);
     gap: 0.65rem;
   }
 
