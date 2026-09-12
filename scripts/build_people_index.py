@@ -11,7 +11,9 @@ from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs" / "media" / "people_index.json"
-link_re = re.compile(r"\*\*\[([^\]]+)\]\((https?://[^)]+)\)")
+link_re = re.compile(
+    r"\*\*\[([^\]]+)\]\((https?://(?:[^()\s]+|\([^()]*\))+)\)"
+)
 
 
 def slugify(s: str) -> str:

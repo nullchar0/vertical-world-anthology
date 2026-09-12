@@ -1,5 +1,41 @@
 [
   {
+    "id": "wiki:Абалаков,_Евгений_Михайлович",
+    "slug": "abalakov-evgenii-mihailovich",
+    "names": {
+      "ru": "Евгений Абалаков",
+      "en": "Yevgeny Abalakov"
+    },
+    "file": "media/portraits/abalakov-evgenii-mihailovich.jpg",
+    "artist": "Unknown authorUnknown author",
+    "credit": "Unknown authorUnknown author",
+    "source_url": "https://commons.wikimedia.org/wiki/File:EvgeniyAbalakov.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:EvgeniyAbalakov.jpg",
+    "license": "Public domain",
+    "license_short": "Public domain",
+    "license_url": "",
+    "wiki_file": "EvgeniyAbalakov.jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
+    "id": "wiki:Абалаков,_Виталий_Михайлович",
+    "slug": "abalakov-vitalii-mihailovich",
+    "names": {
+      "ru": "Виталий",
+      "en": "Vitaly"
+    },
+    "file": "media/portraits/abalakov-vitalii-mihailovich.jpg",
+    "artist": "Unknown authorUnknown author",
+    "credit": "Unknown authorUnknown author",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Abalakovs.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Abalakovs.jpg",
+    "license": "Public domain",
+    "license_short": "Public domain",
+    "license_url": "",
+    "wiki_file": "Abalakovs.jpg",
+    "found_via": "wikidata-P18"
+  },
+  {
     "id": "wiki:Achille_Compagnoni",
     "slug": "achille-compagnoni",
     "names": {
@@ -198,6 +234,24 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:Ang_Rita",
+    "slug": "ang-rita",
+    "names": {
+      "ru": "Анг Рита",
+      "en": "Ang Rita"
+    },
+    "file": "media/portraits/ang-rita.jpg",
+    "artist": "RACHILE",
+    "credit": "RACHILE",
+    "source_url": "https://commons.wikimedia.org/wiki/File:ANG_RITA.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:ANG_RITA.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_short": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "wiki_file": "ANG RITA.jpg",
+    "found_via": "commons-search"
+  },
+  {
     "id": "wiki:Angela_Eiter",
     "slug": "angela-eiter",
     "names": {
@@ -232,6 +286,42 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Apa_Sherpa",
+    "slug": "apa-sherpa",
+    "names": {
+      "ru": "Апа Шерпа",
+      "en": "Apa Sherpa"
+    },
+    "file": "media/portraits/apa-sherpa.jpg",
+    "artist": "Wikipedia (en)",
+    "credit": "Wikipedia (en)",
+    "source_url": "https://en.wikipedia.org/wiki/Apa_Sherpa",
+    "commons_url": "https://en.wikipedia.org/wiki/Apa_Sherpa",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Apa_Sherpa.jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
+    "id": "wiki:Arunima_Sinha",
+    "slug": "arunima-sinha",
+    "names": {
+      "ru": "Арунима Синха",
+      "en": "Arunima Sinha"
+    },
+    "file": "media/portraits/arunima-sinha.png",
+    "artist": "Wikipedia (en)",
+    "credit": "Wikipedia (en)",
+    "source_url": "https://en.wikipedia.org/wiki/Arunima_Sinha",
+    "commons_url": "https://en.wikipedia.org/wiki/Arunima_Sinha",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Arunima_sinha.png",
+    "found_via": "wikipedia-pageimage"
   },
   {
     "id": "wiki:Ashima_Shiraishi",
@@ -304,6 +394,60 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:%D0%91%D0%B0%D0%BB%D0%B5%D0%B7%D0%B8%D0%BD,_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D0%B8%D0%B9_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+    "slug": "balezin-valerii-viktorovich",
+    "names": {
+      "ru": "Валерий Балезин",
+      "en": "Valery Balezin"
+    },
+    "file": "media/portraits/balezin-valerii-viktorovich.jpg",
+    "artist": "Wikipedia (ru)",
+    "credit": "Wikipedia (ru)",
+    "source_url": "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%BB%D0%B5%D0%B7%D0%B8%D0%BD%2C_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D0%B8%D0%B9_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+    "commons_url": "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%BB%D0%B5%D0%B7%D0%B8%D0%BD%2C_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D0%B8%D0%B9_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Валерий_Балезин.jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
+    "id": "wiki:Балыбердин,_Владимир_Сергеевич",
+    "slug": "balyberdin-vladimir-sergeevich",
+    "names": {
+      "ru": "Владимир Балыбердин",
+      "en": "Vladimir Balyberdin"
+    },
+    "file": "media/portraits/balyberdin-vladimir-sergeevich.jpg",
+    "artist": "Jaan Künnap",
+    "credit": "Jaan Künnap",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vladimir_Balyberdin,_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%CC%81%D0%BC%D0%B8%D1%80_%D0%91%D0%B0%D0%BB%D1%8B%D0%B1%D0%B5%CC%81%D1%80%D0%B4%D0%B8%D0%BD_91.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Vladimir_Balyberdin,_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%CC%81%D0%BC%D0%B8%D1%80_%D0%91%D0%B0%D0%BB%D1%8B%D0%B1%D0%B5%CC%81%D1%80%D0%B4%D0%B8%D0%BD_91.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_short": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "wiki_file": "Vladimir Balyberdin, Влади́мир Балыбе́рдин 91.jpg",
+    "found_via": "commons-search"
+  },
+  {
+    "id": "wiki:%D0%91%D0%B0%D1%80%D0%B3%D0%B5%D0%BB%D1%8C,_%D0%90%D0%BD%D0%B4%D0%B6%D0%B5%D0%B9",
+    "slug": "bargel-andzhei",
+    "names": {
+      "ru": "Анджей Баргель",
+      "en": "Andrzej Bargiel"
+    },
+    "file": "media/portraits/bargel-andzhei.jpg",
+    "artist": "Wikipedia (ru)",
+    "credit": "Wikipedia (ru)",
+    "source_url": "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D1%80%D0%B3%D0%B5%D0%BB%D1%8C%2C_%D0%90%D0%BD%D0%B4%D0%B6%D0%B5%D0%B9",
+    "commons_url": "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D1%80%D0%B3%D0%B5%D0%BB%D1%8C%2C_%D0%90%D0%BD%D0%B4%D0%B6%D0%B5%D0%B9",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "2018_-_Pol’and’Rock_Festival_-_Andrzej_Bargiel_11.jpg",
+    "found_via": "wikipedia-pageimage"
   },
   {
     "id": "wiki:Beat_Kammerlander",
@@ -504,6 +648,24 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:%D0%94%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B5%D0%BB%D1%8C,_%D0%9A%D0%B0%D1%82%D1%80%D0%B8%D0%BD",
+    "slug": "destivel-katrin",
+    "names": {
+      "ru": "Катрин Дестивель",
+      "en": "Catherine Destivelle"
+    },
+    "file": "media/portraits/destivel-katrin.jpg",
+    "artist": "Stefanos Nikologianis",
+    "credit": "Stefanos Nikologianis",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Catherine_Destivelle_in_Meteora.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Catherine_Destivelle_in_Meteora.jpg",
+    "license": "CC BY 2.0",
+    "license_short": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "wiki_file": "Catherine Destivelle in Meteora.jpg",
+    "found_via": "commons-search"
+  },
+  {
     "id": "wiki:Didier_Berthod",
     "slug": "didier-berthod",
     "names": {
@@ -538,6 +700,25 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Dudley_Wolfe",
+    "slug": "dudley-wolfe",
+    "names": {
+      "ru": "Дадли Вулф",
+      "en": "Dudley Wolfe"
+    },
+    "file": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Dudley_Wolfe%2C_1917.jpg",
+    "artist": "Unknown authorUnknown author",
+    "credit": "Unknown authorUnknown author",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dudley_Wolfe,_1917.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Dudley_Wolfe,_1917.jpg",
+    "license": "Public domain",
+    "license_short": "Public domain",
+    "license_url": "",
+    "wiki_file": "Dudley Wolfe, 1917.jpg",
+    "found_via": "commons-search",
+    "note": "Remote Wikimedia URL (local download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1))"
   },
   {
     "id": "wiki:Edurne_Pasaban",
@@ -630,6 +811,24 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:Fred_Rouhling",
+    "slug": "fred-rouhling",
+    "names": {
+      "ru": "Фред Рулинг",
+      "en": "Fred Rouhling"
+    },
+    "file": "media/portraits/fred-rouhling.jpg",
+    "artist": "Oliviapoualodoua",
+    "credit": "Oliviapoualodoua",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fred_Rouhling.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Fred_Rouhling.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_short": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "wiki_file": "Fred Rouhling.jpg",
+    "found_via": "wikidata-P18"
+  },
+  {
     "id": "wiki:Fritz_Wiessner",
     "slug": "fritz-wiessner",
     "names": {
@@ -646,6 +845,24 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:%D0%93%D0%B0%D1%80%D0%BD%D0%B1%D1%80%D0%B5%D1%82,_%D0%AF%D0%BD%D1%8C%D1%8F",
+    "slug": "garnbret-yanya",
+    "names": {
+      "ru": "Янья Гарнбрет",
+      "en": "Janja Garnbret"
+    },
+    "file": "media/portraits/garnbret-yanya.jpg",
+    "artist": "Wikipedia (ru)",
+    "credit": "Wikipedia (ru)",
+    "source_url": "https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D1%80%D0%BD%D0%B1%D1%80%D0%B5%D1%82%2C_%D0%AF%D0%BD%D1%8C%D1%8F",
+    "commons_url": "https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D1%80%D0%BD%D0%B1%D1%80%D0%B5%D1%82%2C_%D0%AF%D0%BD%D1%8C%D1%8F",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Svečana_podelitev_nagrad_za_osvojene_olimpijske_medalje_v_Parizu_2024_(Janja_Garnbret_cropped).jpg",
+    "found_via": "wikipedia-pageimage"
   },
   {
     "id": "wiki:Georg_Winkler",
@@ -810,6 +1027,42 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:%D0%A5%D0%BE%D0%BD%D0%BD%D0%BE%D0%BB%D1%8C%D0%B4,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81",
+    "slug": "honnold-aleks",
+    "names": {
+      "ru": "Алексом Хоннольдом",
+      "en": "Alex Honnold"
+    },
+    "file": "media/portraits/honnold-aleks.jpg",
+    "artist": "Wikipedia (ru)",
+    "credit": "Wikipedia (ru)",
+    "source_url": "https://ru.wikipedia.org/wiki/%D0%A5%D0%BE%D0%BD%D0%BD%D0%BE%D0%BB%D1%8C%D0%B4%2C_%D0%90%D0%BB%D0%B5%D0%BA%D1%81",
+    "commons_url": "https://ru.wikipedia.org/wiki/%D0%A5%D0%BE%D0%BD%D0%BD%D0%BE%D0%BB%D1%8C%D0%B4%2C_%D0%90%D0%BB%D0%B5%D0%BA%D1%81",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Alex_Honnold_-_Trento_Film_Festival_2014.JPG",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
+    "id": "wiki:%D0%A5%D1%83%D0%B1%D0%B5%D1%80,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80",
+    "slug": "huber-aleksandr",
+    "names": {
+      "ru": "Александр Хубер",
+      "en": "Alexander Huber"
+    },
+    "file": "media/portraits/huber-aleksandr.jpg",
+    "artist": "Bernhard Holub",
+    "credit": "Bernhard Holub",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Alexander_Huber_2025_BHO-2323.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Alexander_Huber_2025_BHO-2323.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_short": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "wiki_file": "Alexander Huber 2025 BHO-2323.jpg",
+    "found_via": "commons-search"
+  },
+  {
     "id": "wiki:Iker_Pou",
     "slug": "iker-pou",
     "names": {
@@ -864,6 +1117,24 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:Jerry_Moffatt",
+    "slug": "jerry-moffatt",
+    "names": {
+      "ru": "Джерри Моффатт",
+      "en": "Jerry Moffatt"
+    },
+    "file": "media/portraits/jerry-moffatt.jpg",
+    "artist": "Jerry moffatt1",
+    "credit": "Jerry moffatt1",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jerry_moffatt.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Jerry_moffatt.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_short": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "wiki_file": "Jerry moffatt.jpg",
+    "found_via": "wikidata-P18"
+  },
+  {
     "id": "wiki:Jim_Bridwell",
     "slug": "jim-bridwell",
     "names": {
@@ -880,6 +1151,24 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Joe_Brown_(climber)",
+    "slug": "joe-brown-climber",
+    "names": {
+      "ru": "Джо Браун",
+      "en": "Joe Brown"
+    },
+    "file": "media/portraits/joe-brown-climber.jpg",
+    "artist": "See Commons file page",
+    "credit": "See Commons file page",
+    "source_url": "https://en.wikipedia.org/wiki/Joe_Brown_(climber)",
+    "commons_url": "https://en.wikipedia.org/wiki/Joe_Brown_(climber)",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Joe_Brown.jpg",
+    "found_via": "wikipedia-pageimage"
   },
   {
     "id": "wiki:John_Bachar",
@@ -900,6 +1189,24 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:John_Gill_(climber)",
+    "slug": "john-gill-climber",
+    "names": {
+      "ru": "Джон Гилл",
+      "en": "John Gill"
+    },
+    "file": "media/portraits/john-gill-climber.jpg",
+    "artist": "See Commons file page",
+    "credit": "See Commons file page",
+    "source_url": "https://en.wikipedia.org/wiki/John_Gill_(climber)",
+    "commons_url": "https://en.wikipedia.org/wiki/John_Gill_(climber)",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "John_Gill_1968.jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
     "id": "wiki:Jokke_Sommer",
     "slug": "jokke-sommer",
     "names": {
@@ -918,6 +1225,78 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:Josune_Bereziartu",
+    "slug": "josune-bereziartu",
+    "names": {
+      "ru": "Хосуне Бересиарту",
+      "en": "Josune Bereziartu"
+    },
+    "file": "media/portraits/josune-bereziartu.jpg",
+    "artist": "See Commons file page",
+    "credit": "See Commons file page",
+    "source_url": "https://en.wikipedia.org/wiki/Josune_Bereziartu",
+    "commons_url": "https://en.wikipedia.org/wiki/Josune_Bereziartu",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Josune_Bereziartu_2012.jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
+    "id": "wiki:Katie_Brown_(climber)",
+    "slug": "katie-brown-climber",
+    "names": {
+      "ru": "Кэти Браун",
+      "en": "Katie Brown"
+    },
+    "file": "media/portraits/katie-brown-climber.jpg",
+    "artist": "See Commons file page",
+    "credit": "See Commons file page",
+    "source_url": "https://en.wikipedia.org/wiki/Katie_Brown_(climber)",
+    "commons_url": "https://en.wikipedia.org/wiki/Katie_Brown_(climber)",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Katie_Brown_-_Red_Rocks_-_2009.jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
+    "id": "wiki:Kim_Chang-ho_(climber)",
+    "slug": "kim-chang-ho-climber",
+    "names": {
+      "ru": "Ким Чан-хо",
+      "en": "Kim Chang-ho"
+    },
+    "file": "media/portraits/kim-chang-ho-climber.jpg",
+    "artist": "Wikipedia (en)",
+    "credit": "Wikipedia (en)",
+    "source_url": "https://en.wikipedia.org/wiki/Kim_Chang-ho_%28climber%29",
+    "commons_url": "https://en.wikipedia.org/wiki/Kim_Chang-ho_%28climber%29",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "MG_3041(cut)4.jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
+    "id": "wiki:Крыленко,_Николай_Васильевич",
+    "slug": "krylenko-nikolai-vasilevich",
+    "names": {
+      "ru": "Николай Крыленко",
+      "en": "Nikolai Krylenko"
+    },
+    "file": "media/portraits/krylenko-nikolai-vasilevich.jpg",
+    "artist": "Unknown authorUnknown author",
+    "credit": "Unknown authorUnknown author",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Glavkoverkh_krylenko.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Glavkoverkh_krylenko.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_short": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "wiki_file": "Glavkoverkh_krylenko.jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
     "id": "wiki:Krzysztof_Wielicki",
     "slug": "krzysztof-wielicki",
     "names": {
@@ -934,6 +1313,24 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:%D0%9A%D1%83%D0%BA%D1%83%D1%87%D0%BA%D0%B0,_%D0%95%D0%B6%D0%B8",
+    "slug": "kukuchka-ezhi",
+    "names": {
+      "ru": "Ежи Кукучка",
+      "en": "Jerzy Kukuczka"
+    },
+    "file": "media/portraits/kukuchka-ezhi.jpg",
+    "artist": "Wikipedia (ru)",
+    "credit": "Wikipedia (ru)",
+    "source_url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BA%D1%83%D1%87%D0%BA%D0%B0%2C_%D0%95%D0%B6%D0%B8",
+    "commons_url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BA%D1%83%D1%87%D0%BA%D0%B0%2C_%D0%95%D0%B6%D0%B8",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Jerzy_Kukuczka_Mount_Everest_1980.jpg",
+    "found_via": "wikipedia-pageimage"
   },
   {
     "id": "wiki:Kurt_Albert",
@@ -988,6 +1385,25 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Lhakpa_Sherpa",
+    "slug": "lhakpa-sherpa",
+    "names": {
+      "ru": "Лхакпа Шерпа",
+      "en": "Lhakpa Sherpa"
+    },
+    "file": "https://upload.wikimedia.org/wikipedia/commons/3/36/Portrait_de_Lhakpa_Sherpa.jpg",
+    "artist": "Hibrideacus",
+    "credit": "Hibrideacus",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_de_Lhakpa_Sherpa.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Portrait_de_Lhakpa_Sherpa.jpg",
+    "license": "CC0",
+    "license_short": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "wiki_file": "Portrait de Lhakpa Sherpa.jpg",
+    "found_via": "wikidata-P18",
+    "note": "Remote Wikimedia URL (local download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1))"
   },
   {
     "id": "wiki:Lionel_Terray",
@@ -1062,6 +1478,42 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:%D0%9C%D0%B0%D1%8D%D1%81%D1%82%D1%80%D0%B8,_%D0%A7%D0%B5%D0%B7%D0%B0%D1%80%D0%B5",
+    "slug": "maestri-chezare",
+    "names": {
+      "ru": "Чезаре Маэстри",
+      "en": "Cesare Maestri"
+    },
+    "file": "media/portraits/maestri-chezare.jpg",
+    "artist": "Wikipedia (ru)",
+    "credit": "Wikipedia (ru)",
+    "source_url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%8D%D1%81%D1%82%D1%80%D0%B8%2C_%D0%A7%D0%B5%D0%B7%D0%B0%D1%80%D0%B5",
+    "commons_url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%8D%D1%81%D1%82%D1%80%D0%B8%2C_%D0%A7%D0%B5%D0%B7%D0%B0%D1%80%D0%B5",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Cesare_maestri.jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
+    "id": "wiki:%D0%9C%D0%B0%D0%BC%D0%BB%D0%B5%D0%B5%D0%B2,_%D0%AE%D1%80%D0%B8%D0%B9_%D0%92%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87",
+    "slug": "mamleev-yurii-vitalevich",
+    "names": {
+      "ru": "Юрий Мамлеев",
+      "en": "Yuri Mamleyev"
+    },
+    "file": "media/portraits/mamleev-yurii-vitalevich.jpg",
+    "artist": "Wikipedia (ru)",
+    "credit": "Wikipedia (ru)",
+    "source_url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BC%D0%BB%D0%B5%D0%B5%D0%B2%2C_%D0%AE%D1%80%D0%B8%D0%B9_%D0%92%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87",
+    "commons_url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BC%D0%BB%D0%B5%D0%B5%D0%B2%2C_%D0%AE%D1%80%D0%B8%D0%B9_%D0%92%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Юрий_Мамлеев.JPG",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
     "id": "wiki:Margo_Hayes",
     "slug": "margo-hayes",
     "names": {
@@ -1116,6 +1568,60 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:%D0%9C%D1%8D%D0%BB%D0%BB%D0%BE%D1%80%D0%B8,_%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6",
+    "slug": "mellori-dzhordzh",
+    "names": {
+      "ru": "Джордж Мэллори",
+      "en": "George Mallory"
+    },
+    "file": "media/portraits/mellori-dzhordzh.jpg",
+    "artist": "Unknown authorUnknown author",
+    "credit": "Unknown authorUnknown author",
+    "source_url": "https://commons.wikimedia.org/wiki/File:George_Mallory_1915.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:George_Mallory_1915.jpg",
+    "license": "Public domain",
+    "license_short": "Public domain",
+    "license_url": "",
+    "wiki_file": "George_Mallory_1915.jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
+    "id": "wiki:%D0%9C%D0%B5%D1%81%D1%81%D0%BD%D0%B5%D1%80,_%D0%A0%D0%B0%D0%B9%D0%BD%D1%85%D0%BE%D0%BB%D1%8C%D0%B4",
+    "slug": "messner-rainhold",
+    "names": {
+      "ru": "Райнхольд Месснер",
+      "en": "Reinhold Messner"
+    },
+    "file": "media/portraits/messner-rainhold.jpg",
+    "artist": "Wikipedia (ru)",
+    "credit": "Wikipedia (ru)",
+    "source_url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%81%D1%81%D0%BD%D0%B5%D1%80%2C_%D0%A0%D0%B0%D0%B9%D0%BD%D1%85%D0%BE%D0%BB%D1%8C%D0%B4",
+    "commons_url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%81%D1%81%D0%BD%D0%B5%D1%80%2C_%D0%A0%D0%B0%D0%B9%D0%BD%D1%85%D0%BE%D0%BB%D1%8C%D0%B4",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Reinhold_Messner_at_Frankfurt_Book_Fair_2017_(26)_(cropped).jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
+    "id": "wiki:%D0%9C%D0%B8%D0%B4%D1%82%D0%B1%D1%91,_%D0%9C%D0%B0%D0%B3%D0%BD%D1%83%D1%81",
+    "slug": "midtbe-magnus",
+    "names": {
+      "ru": "Магнус Мидтбё",
+      "en": "Magnus Midtbø"
+    },
+    "file": "media/portraits/midtbe-magnus.jpg",
+    "artist": "Wikipedia (ru)",
+    "credit": "Wikipedia (ru)",
+    "source_url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%B4%D1%82%D0%B1%D1%91%2C_%D0%9C%D0%B0%D0%B3%D0%BD%D1%83%D1%81",
+    "commons_url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%B4%D1%82%D0%B1%D1%91%2C_%D0%9C%D0%B0%D0%B3%D0%BD%D1%83%D1%81",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Magnus_Midtbø_Innsbruck_2010.JPG",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
     "id": "wiki:Nalle_Hukkataival",
     "slug": "nalle-hukkataival",
     "names": {
@@ -1132,6 +1638,42 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Naomi_Uemura",
+    "slug": "naomi-uemura",
+    "names": {
+      "ru": "Наоми Уэмура",
+      "en": "Naomi Uemura"
+    },
+    "file": "media/portraits/naomi-uemura.jpg",
+    "artist": "ThatGuyOnline",
+    "credit": "ThatGuyOnline",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Naomi_Uemura.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Naomi_Uemura.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_short": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "wiki_file": "Naomi Uemura.jpg",
+    "found_via": "wikidata-P18"
+  },
+  {
+    "id": "wiki:Nawang_Gombu_Sherpa",
+    "slug": "nawang-gombu-sherpa",
+    "names": {
+      "ru": "Наванг Гомбу",
+      "en": "Nawang Gombu"
+    },
+    "file": "media/portraits/nawang-gombu-sherpa.jpg",
+    "artist": "See Commons file page",
+    "credit": "See Commons file page",
+    "source_url": "https://en.wikipedia.org/wiki/Nawang_Gombu_Sherpa",
+    "commons_url": "https://en.wikipedia.org/wiki/Nawang_Gombu_Sherpa",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Nawang_Gonbu_with_Lifetime_Achievement_Award_under_Tenzing_Norgay_National_Adventure_Award_–2005_category_in_2006_(cropped)_(cropped).jpg",
+    "found_via": "wikipedia-pageimage"
   },
   {
     "id": "wiki:Nazir_Sabir",
@@ -1260,6 +1802,24 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:Pasang_Lhamu_Sherpa",
+    "slug": "pasang-lhamu-sherpa",
+    "names": {
+      "ru": "Пасанг Лхаму Шерпа",
+      "en": "Pasang Lhamu Sherpa"
+    },
+    "file": "media/portraits/pasang-lhamu-sherpa.jpg",
+    "artist": "Krish Dulal",
+    "credit": "Krish Dulal",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pasang.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Pasang.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_short": "CC BY-SA 3.0",
+    "license_url": "",
+    "wiki_file": "Pasang.jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
     "id": "wiki:Patrick_Edlinger",
     "slug": "patrick-edlinger",
     "names": {
@@ -1276,6 +1836,60 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Paul_Preuss_(climber)",
+    "slug": "paul-preuss-climber",
+    "names": {
+      "ru": "Пауль Прейсс",
+      "en": "Paul Preuss"
+    },
+    "file": "media/portraits/paul-preuss-climber.jpg",
+    "artist": "Unknown authorUnknown author",
+    "credit": "Unknown authorUnknown author",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paul_Preu%C3%9F1.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Paul_Preu%C3%9F1.jpg",
+    "license": "Public domain",
+    "license_short": "Public domain",
+    "license_url": "",
+    "wiki_file": "Paul_Preuß1.jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
+    "id": "wiki:Phurba_Tashi",
+    "slug": "phurba-tashi",
+    "names": {
+      "ru": "Пхурба Таши",
+      "en": "Phurba Tashi"
+    },
+    "file": "media/portraits/phurba-tashi.jpg",
+    "artist": "Wikipedia (en)",
+    "credit": "Wikipedia (en)",
+    "source_url": "https://en.wikipedia.org/wiki/Phurba_Tashi",
+    "commons_url": "https://en.wikipedia.org/wiki/Phurba_Tashi",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Phurba_Tashi.jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
+    "id": "wiki:%D0%9F%D1%83%D1%80%D0%B4%D0%B6%D0%B0,_%D0%9D%D0%B8%D1%80%D0%BC%D0%B0%D0%BB",
+    "slug": "purdzha-nirmal",
+    "names": {
+      "ru": "Нирмал «Нимс» Пурджа",
+      "en": "Nirmal “Nims” Purja"
+    },
+    "file": "media/portraits/purdzha-nirmal.jpg",
+    "artist": "Wikipedia (ru)",
+    "credit": "Wikipedia (ru)",
+    "source_url": "https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D1%80%D0%B4%D0%B6%D0%B0%2C_%D0%9D%D0%B8%D1%80%D0%BC%D0%B0%D0%BB",
+    "commons_url": "https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D1%80%D0%B4%D0%B6%D0%B0%2C_%D0%9D%D0%B8%D1%80%D0%BC%D0%B0%D0%BB",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "NIRMAL_PURJA_\"NIMS\".jpg",
+    "found_via": "wikipedia-pageimage"
   },
   {
     "id": "wiki:Riccardo_Cassin",
@@ -1314,6 +1928,42 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:Розов,_Валерий_Владимирович",
+    "slug": "rozov-valerii-vladimirovich",
+    "names": {
+      "ru": "Валерий Розов",
+      "en": "Valery Rozov"
+    },
+    "file": "media/portraits/rozov-valerii-vladimirovich.jpg",
+    "artist": "Lydia Tokareva",
+    "credit": "Lydia Tokareva",
+    "source_url": "https://commons.wikimedia.org/wiki/File:RozovValery4-cropped.JPG",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:RozovValery4-cropped.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_short": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "wiki_file": "RozovValery4-cropped.JPG",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
+    "id": "wiki:Santosh_Yadav",
+    "slug": "santosh-yadav",
+    "names": {
+      "ru": "Сантош Ядав",
+      "en": "Santosh Yadav"
+    },
+    "file": "media/portraits/santosh-yadav.jpg",
+    "artist": "See Commons file page",
+    "credit": "See Commons file page",
+    "source_url": "https://en.wikipedia.org/wiki/Santosh_Yadav",
+    "commons_url": "https://en.wikipedia.org/wiki/Santosh_Yadav",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "The_renowned_mountaineer,_Smt._Santosh_Yadav_releasing_a_book_‘Parvatarohan_Ka_Romanch’,_brought_by_the_Publications_Division,_in_New_Delhi_on_September_04,_2008_(cropped).jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
     "id": "wiki:Shauna_Coxsey",
     "slug": "shauna-coxsey",
     "names": {
@@ -1348,6 +1998,24 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Simone_Moro",
+    "slug": "simone-moro",
+    "names": {
+      "ru": "Симоне Моро",
+      "en": "Simone Moro"
+    },
+    "file": "media/portraits/simone-moro.jpg",
+    "artist": "See Commons file page",
+    "credit": "See Commons file page",
+    "source_url": "https://en.wikipedia.org/wiki/Simone_Moro",
+    "commons_url": "https://en.wikipedia.org/wiki/Simone_Moro",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Portrait_of_Simone_Moro.jpg",
+    "found_via": "wikipedia-pageimage"
   },
   {
     "id": "wiki:Song_Yiling",
@@ -1402,6 +2070,24 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:%D0%A2%D0%B0%D0%B1%D1%8D%D0%B8,_%D0%94%D0%B7%D1%8E%D0%BD%D0%BA%D0%BE",
+    "slug": "tabei-dzyunko",
+    "names": {
+      "ru": "Дзюнко Табэи",
+      "en": "Junko Tabei"
+    },
+    "file": "media/portraits/tabei-dzyunko.jpg",
+    "artist": "Wikipedia (ru)",
+    "credit": "Wikipedia (ru)",
+    "source_url": "https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B1%D1%8D%D0%B8%2C_%D0%94%D0%B7%D1%8E%D0%BD%D0%BA%D0%BE",
+    "commons_url": "https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B1%D1%8D%D0%B8%2C_%D0%94%D0%B7%D1%8E%D0%BD%D0%BA%D0%BE",
+    "license": "Free (Wikipedia pageimage)",
+    "license_short": "Free (Wikipedia pageimage)",
+    "license_url": "",
+    "wiki_file": "Junko_Tabei,_Jaapani_alpinist_85.jpg",
+    "found_via": "wikipedia-pageimage"
   },
   {
     "id": "wiki:Tenzing_Norgay",
@@ -1636,6 +2322,24 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Yuichiro_Miura",
+    "slug": "yuichiro-miura",
+    "names": {
+      "ru": "Юитиро Миура",
+      "en": "Yuichiro Miura"
+    },
+    "file": "media/portraits/yuichiro-miura.jpg",
+    "artist": "Archives New Zealand",
+    "credit": "Archives New Zealand",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Yuichiro_Miura,_August_1966,_Tasman_Glacier,_Mt._Cook.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Yuichiro_Miura,_August_1966,_Tasman_Glacier,_Mt._Cook.jpg",
+    "license": "CC BY 2.0",
+    "license_short": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "wiki_file": "Yuichiro Miura, August 1966, Tasman Glacier, Mt. Cook.jpg",
+    "found_via": "commons-search"
   },
   {
     "id": "wiki:Yvon_Chouinard",
