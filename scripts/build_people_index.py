@@ -126,6 +126,8 @@ def main() -> None:
     overrides = {
         "honnold-aleks": {"ru": "Алекс Хоннольд", "en": "Alex Honnold"},
         "hansjorg-auer": {"ru": "Хансйорг Ауэр", "en": "Hansjörg Auer"},
+        "gaston-rebuffat": {"ru": "Гастон Ребюффа", "en": "Gaston Rébuffat"},
+        "lino-lacedelli": {"ru": "Лино Лачеделли", "en": "Lino Lacedelli"},
     }
     for p in people.values():
         o = overrides.get(p.get("slug") or "")

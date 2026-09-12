@@ -126,7 +126,7 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
-    "id": "wiki:Aleksandra_Mirosław",
+    "id": "wiki:Aleksandra_Miros%C5%82aw",
     "slug": "aleksandra-miros-aw",
     "names": {
       "ru": "Александра Мирослав",
@@ -198,6 +198,24 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:Amir_Mehdi",
+    "slug": "amir-mehdi",
+    "names": {
+      "ru": "Амир Мехди",
+      "en": "Amir Mehdi"
+    },
+    "file": "media/portraits/amir-mehdi.jpg",
+    "artist": "Zachaboi",
+    "credit": "Zachaboi",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAmir_Mehdi_-_Hunza_Mehdi.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AAmir_Mehdi_-_Hunza_Mehdi.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_short": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "wiki_file": "File:Amir Mehdi - Hunza Mehdi.jpg",
+    "note": "Commons free portrait; web-compressed."
+  },
+  {
     "id": "wiki:Anatoli_Boukreev",
     "slug": "anatoli-boukreev",
     "names": {
@@ -214,6 +232,24 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
+  },
+  {
+    "id": "wiki:Andrew_Irvine_(mountaineer)",
+    "slug": "andrew-irvine-mountaineer",
+    "names": {
+      "ru": "Эндрю Ирвин",
+      "en": "Andrew Irvine"
+    },
+    "file": "media/portraits/andrew-irvine-mountaineer.jpg",
+    "artist": "Unknown photographer",
+    "credit": "Unknown photographer",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAndrewIrvine.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AAndrewIrvine.jpg",
+    "license": "Public domain",
+    "license_short": "Public domain",
+    "license_url": "",
+    "wiki_file": "File:AndrewIrvine.jpg",
+    "note": "Added from Commons after external portrait research; compressed for web."
   },
   {
     "id": "wiki:Andrzej_Zawada",
@@ -720,6 +756,24 @@
     "found_via": "commons-search"
   },
   {
+    "id": "wiki:Edmund_Hillary",
+    "slug": "edmund-hillary",
+    "names": {
+      "ru": "Эдмунд Хиллари",
+      "en": "Edmund Hillary"
+    },
+    "file": "media/portraits/edmund-hillary.jpg",
+    "artist": "Jamling Tenzing Norgay",
+    "credit": "Jamling Tenzing Norgay",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AEdmund_Hillary_on_29_May_1953_after_reaching_the_Mount_Everest_summit_%28cropped%29.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AEdmund_Hillary_on_29_May_1953_after_reaching_the_Mount_Everest_summit_%28cropped%29.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_short": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "wiki_file": "File:Edmund Hillary on 29 May 1953 after reaching the Mount Everest summit (cropped).jpg",
+    "note": "Commons free photographic portrait (replaced statue); web-compressed."
+  },
+  {
     "id": "wiki:Edurne_Pasaban",
     "slug": "edurne-pasaban",
     "names": {
@@ -900,6 +954,24 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:George_Mallory",
+    "slug": "george-mallory",
+    "names": {
+      "ru": "Джордж Мэллори",
+      "en": "George Mallory"
+    },
+    "file": "media/portraits/george-mallory.jpg",
+    "artist": "Unknown authorUnknown author",
+    "credit": "Unknown authorUnknown author",
+    "source_url": "https://commons.wikimedia.org/wiki/File:George_Mallory_1915.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:George_Mallory_1915.jpg",
+    "license": "Public domain",
+    "license_short": "Public domain",
+    "license_url": "",
+    "wiki_file": "George_Mallory_1915.jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
     "id": "wiki:Gerlinde_Kaltenbrunner",
     "slug": "gerlinde-kaltenbrunner",
     "names": {
@@ -918,7 +990,7 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
-    "id": "wiki:Hans_Dülfer",
+    "id": "wiki:Hans_D%C3%BClfer",
     "slug": "hans-dulfer",
     "names": {
       "ru": "Ганс Дюльфер",
@@ -936,7 +1008,7 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
-    "id": "wiki:Hansjörg_Auer",
+    "id": "wiki:Hansj%C3%B6rg_Auer",
     "slug": "hansjorg-auer",
     "names": {
       "ru": "Хансйорг Ауэр",
@@ -954,7 +1026,7 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
-    "id": "wiki:Харила,_Кристин",
+    "id": "wiki:%D0%A5%D0%B0%D1%80%D0%B8%D0%BB%D0%B0,_%D0%9A%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%BD",
     "slug": "harila-kristin",
     "names": {
       "ru": "Кристин Харила",
@@ -1405,6 +1477,24 @@
     "note": "Remote Wikimedia URL (local download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1))"
   },
   {
+    "id": "wiki:Lino_Lacedelli",
+    "slug": "lino-lacedelli",
+    "names": {
+      "ru": "Лино Лачеделли",
+      "en": "Lino Lacedelli"
+    },
+    "file": "media/portraits/lino-lacedelli.jpg",
+    "artist": "Unknown authorUnknown author",
+    "credit": "Unknown authorUnknown author",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ALino_Lacedelli_1954.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ALino_Lacedelli_1954.jpg",
+    "license": "Public domain",
+    "license_short": "Public domain",
+    "license_url": "",
+    "wiki_file": "File:Lino_Lacedelli_1954.jpg",
+    "note": "Added from Commons after external portrait research; compressed for web."
+  },
+  {
     "id": "wiki:Lionel_Terray",
     "slug": "lionel-terray",
     "names": {
@@ -1547,24 +1637,6 @@
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
     "wiki_file": "",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
-  },
-  {
-    "id": "wiki:%D0%9C%D1%8D%D0%BB%D0%BB%D0%BE%D1%80%D0%B8,_%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6",
-    "slug": "mellori-dzhordzh",
-    "names": {
-      "ru": "Джордж Мэллори",
-      "en": "George Mallory"
-    },
-    "file": "media/portraits/mellori-dzhordzh.jpg",
-    "artist": "Unknown authorUnknown author",
-    "credit": "Unknown authorUnknown author",
-    "source_url": "https://commons.wikimedia.org/wiki/File:George_Mallory_1915.jpg",
-    "commons_url": "https://commons.wikimedia.org/wiki/File:George_Mallory_1915.jpg",
-    "license": "Public domain",
-    "license_short": "Public domain",
-    "license_url": "",
-    "wiki_file": "George_Mallory_1915.jpg",
-    "found_via": "wikipedia-pageimage"
   },
   {
     "id": "wiki:%D0%9C%D0%B5%D1%81%D1%81%D0%BD%D0%B5%D1%80,_%D0%A0%D0%B0%D0%B9%D0%BD%D1%85%D0%BE%D0%BB%D1%8C%D0%B4",
@@ -2269,6 +2341,24 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:Willi_Unsoeld",
+    "slug": "willi-unsoeld",
+    "names": {
+      "ru": "Вилли Унзёльд",
+      "en": "Willi Unsoeld"
+    },
+    "file": "media/portraits/willi-unsoeld.jpg",
+    "artist": "Oregon State University",
+    "credit": "Oregon State University",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AWilli_Unsoeld_-_2b.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AWilli_Unsoeld_-_2b.jpg",
+    "license": "CC BY-SA 2.0",
+    "license_short": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "wiki_file": "File:Willi Unsoeld - 2b.jpg",
+    "note": "Added from Commons after external portrait research; compressed for web."
+  },
+  {
     "id": "wiki:William_Bosi",
     "slug": "william-bosi",
     "names": {
@@ -2305,7 +2395,7 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
-    "id": "wiki:Wolfgang_Güllich",
+    "id": "wiki:Wolfgang_G%C3%BCllich",
     "slug": "wolfgang-gullich",
     "names": {
       "ru": "Вольфганг Гюллих",

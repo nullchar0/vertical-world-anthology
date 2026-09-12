@@ -140,18 +140,18 @@
     "slug": "krylenko-nikolai-vasilevich"
   },
   {
-    "id": "wiki:%D0%9C%D1%8D%D0%BB%D0%BB%D0%BE%D1%80%D0%B8,_%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6",
+    "id": "wiki:George_Mallory",
     "names": {
       "ru": "Джордж Мэллори",
       "en": "George Mallory"
     },
     "urls": [
-      "https://ru.wikipedia.org/wiki/%D0%9C%D1%8D%D0%BB%D0%BB%D0%BE%D1%80%D0%B8,_%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6"
+      "https://en.wikipedia.org/wiki/George_Mallory"
     ],
     "wiki_titles": {
-      "ru": "Мэллори,_Джордж"
+      "en": "George_Mallory"
     },
-    "slug": "mellori-dzhordzh"
+    "slug": "george-mallory"
   },
   {
     "id": "wiki:Andrew_Irvine_(mountaineer)",
@@ -406,18 +406,18 @@
     "slug": "lionel-terray"
   },
   {
-    "id": "wiki:%D0%A0%D0%B5%D0%B1%D1%8E%D1%84%D1%84%D0%B0,_%D0%93%D0%B0%D1%81%D1%82%D0%BE%D0%BD",
+    "id": "wiki:Gaston_R%C3%A9buffat",
     "names": {
-      "ru": "Гастона Ребюффа",
+      "ru": "Гастон Ребюффа",
       "en": "Gaston Rébuffat"
     },
     "urls": [
-      "https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B1%D1%8E%D1%84%D1%84%D0%B0,_%D0%93%D0%B0%D1%81%D1%82%D0%BE%D0%BD"
+      "https://en.wikipedia.org/wiki/Gaston_R%C3%A9buffat"
     ],
     "wiki_titles": {
-      "ru": "Ребюффа,_Гастон"
+      "en": "Gaston_Rébuffat"
     },
-    "slug": "rebyuffa-gaston"
+    "slug": "gaston-rebuffat"
   },
   {
     "id": "wiki:%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%B8%D1%87,_%D0%98%D0%B2%D0%B0%D0%BD_%D0%98%D0%BE%D1%81%D0%B8%D1%84%D0%BE%D0%B2%D0%B8%D1%87",
@@ -516,17 +516,18 @@
     "slug": "achille-compagnoni"
   },
   {
-    "id": "wiki:%D0%9B%D0%B0%D1%87%D0%B5%D0%B4%D0%B5%D0%BB%D0%BB%D0%B8,_%D0%9B%D0%B8%D0%BD%D0%BE",
+    "id": "wiki:Lino_Lacedelli",
     "names": {
-      "ru": "Лино Лачеделли"
+      "ru": "Лино Лачеделли",
+      "en": "Lino Lacedelli"
     },
     "urls": [
-      "https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D1%87%D0%B5%D0%B4%D0%B5%D0%BB%D0%BB%D0%B8,_%D0%9B%D0%B8%D0%BD%D0%BE"
+      "https://en.wikipedia.org/wiki/Lino_Lacedelli"
     ],
     "wiki_titles": {
-      "ru": "Лачеделли,_Лино"
+      "en": "Lino_Lacedelli"
     },
-    "slug": "lachedelli-lino"
+    "slug": "lino-lacedelli"
   },
   {
     "id": "wiki:Walter_Bonatti",
@@ -3061,18 +3062,5 @@
       "fr": "Nina_Caprez"
     },
     "slug": "nina-caprez"
-  },
-  {
-    "id": "wiki:Lino_Lacedelli",
-    "names": {
-      "en": "Lino Lacedelli"
-    },
-    "urls": [
-      "https://en.wikipedia.org/wiki/Lino_Lacedelli"
-    ],
-    "wiki_titles": {
-      "en": "Lino_Lacedelli"
-    },
-    "slug": "lino-lacedelli"
   }
 ]
