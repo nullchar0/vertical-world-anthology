@@ -4,23 +4,29 @@
       brand: "Вертикальный мир",
       brandSub: "Антология 1900–2026",
       loading: "Загрузка…",
+      toc: "Оглавление",
       footerCredits:
         "Портреты показываются только при лицензии, допускающей повторное использование. У каждого изображения указаны автор/правообладатель и ссылка на первоисточник.",
       footerMedia: "Каталог медиа: ",
       noPortrait: "Нет свободного портрета",
       creditPrefix: "Источник",
       licensePrefix: "Лицензия",
+      close: "Закрыть",
+      enlarge: "Открыть портрет крупнее",
     },
     en: {
       brand: "Vertical World",
       brandSub: "Anthology 1900–2026",
       loading: "Loading…",
+      toc: "Contents",
       footerCredits:
         "Portraits appear only when a license allows reuse. Each image shows credit and a link to the original source.",
       footerMedia: "Media catalog: ",
       noPortrait: "No freely licensed portrait",
       creditPrefix: "Source",
       licensePrefix: "License",
+      close: "Close",
+      enlarge: "View larger portrait",
     },
   };
 
@@ -28,7 +34,13 @@
     lang: localStorage.getItem("vw-lang") || detectLang(),
     catalog: {},
     people: [],
+    lastFocus: null,
   };
+
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+  const lightboxMeta = document.getElementById("lightbox-meta");
+  const lightboxClose = document.getElementById("lightbox-close");
 
   function detectLang() {
     const q = new URLSearchParams(location.search).get("lang");
@@ -65,10 +77,9 @@
     }
   }
 
-  function findPortrait(href, linkText) {
+  function findPortrait(href) {
     const key = wikiKeyFromHref(href);
     if (key && state.catalog[key]) return state.catalog[key];
-    // fallback by slug match on people index
     const byUrl = state.people.find((p) => (p.urls || []).includes(href));
     if (byUrl && state.catalog[byUrl.id]) return state.catalog[byUrl.id];
     if (byUrl && byUrl.slug && state.catalog["slug:" + byUrl.slug]) {
@@ -77,11 +88,8 @@
     return null;
   }
 
-  function portraitHTML(meta) {
+  function creditHTML(meta) {
     const t = I18N[state.lang];
-    if (!meta || !meta.file) {
-      return `<div class="portrait-missing">${t.noPortrait}</div>`;
-    }
     const credit = meta.artist || meta.credit || "Unknown";
     const source = meta.source_url || meta.commons_url || "#";
     const license = meta.license || meta.license_short || "";
@@ -89,16 +97,24 @@
     const licenseBit = license
       ? ` · ${t.licensePrefix}: ${
           licenseUrl
-            ? `<a href="${licenseUrl}" target="_blank" rel="noopener noreferrer">${license}</a>`
-            : license
+            ? `<a href="${licenseUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(license)}</a>`
+            : escapeHtml(license)
         }`
       : "";
+    return `${t.creditPrefix}: ${escapeHtml(credit)}
+      · <a href="${source}" target="_blank" rel="noopener noreferrer">original</a>${licenseBit}`;
+  }
+
+  function portraitHTML(meta) {
+    const t = I18N[state.lang];
+    if (!meta || !meta.file) {
+      return `<div class="portrait-missing">${t.noPortrait}</div>`;
+    }
     return `<figure class="portrait">
-      <img src="${meta.file}" alt="" loading="lazy" decoding="async" />
-      <figcaption>
-        ${t.creditPrefix}: ${escapeHtml(credit)}
-        · <a href="${source}" target="_blank" rel="noopener noreferrer">original</a>${licenseBit}
-      </figcaption>
+      <button type="button" class="portrait-zoom" data-full="${escapeHtml(meta.file)}" aria-label="${t.enlarge}">
+        <img src="${meta.file}" alt="" loading="lazy" decoding="async" width="240" height="320" />
+      </button>
+      <figcaption>${creditHTML(meta)}</figcaption>
     </figure>`;
   }
 
@@ -110,8 +126,27 @@
       .replace(/"/g, "&quot;");
   }
 
+  function openLightbox(src, captionHTML) {
+    state.lastFocus = document.activeElement;
+    lightboxImg.src = src;
+    lightboxMeta.innerHTML = captionHTML || "";
+    lightbox.hidden = false;
+    document.body.classList.add("lightbox-open");
+    lightboxClose.focus();
+  }
+
+  function closeLightbox() {
+    if (lightbox.hidden) return;
+    lightbox.hidden = true;
+    document.body.classList.remove("lightbox-open");
+    lightboxImg.removeAttribute("src");
+    lightboxMeta.innerHTML = "";
+    if (state.lastFocus && typeof state.lastFocus.focus === "function") {
+      state.lastFocus.focus();
+    }
+  }
+
   function enhancePersonBlocks(root) {
-    // Wrap paragraphs that begin with a strong wiki link as person cards
     const nodes = [...root.querySelectorAll("p, li")];
     nodes.forEach((node) => {
       const first = node.querySelector(":scope > strong > a, :scope > a");
@@ -123,17 +158,15 @@
         href.includes("russianclimb") ||
         href.includes("babanov.com");
       if (!looksPerson) return;
-      // Avoid double wrapping
       if (node.closest(".person-card")) return;
 
-      const meta = findPortrait(href, first.textContent || "");
+      const meta = findPortrait(href);
       const card = document.createElement("div");
       card.className = "person-card";
       const media = document.createElement("div");
       media.innerHTML = portraitHTML(meta);
       const body = document.createElement("div");
       body.className = "person-body";
-      // move node into body
       node.parentNode.insertBefore(card, node);
       body.appendChild(node);
       card.appendChild(media);
@@ -153,15 +186,15 @@
   }
 
   async function loadMarkdown() {
-    const res = await fetch(`content/${state.lang}.md`, { cache: "no-cache" });
+    const res = await fetch(`content/${state.lang}.md`);
     if (!res.ok) throw new Error("Failed to load content");
     return res.text();
   }
 
   async function loadMedia() {
     const [catalogRes, peopleRes] = await Promise.all([
-      fetch("media/catalog.json", { cache: "no-cache" }),
-      fetch("media/people_index.json", { cache: "no-cache" }),
+      fetch("media/catalog.json"),
+      fetch("media/people_index.json"),
     ]);
     const catalogArr = catalogRes.ok ? await catalogRes.json() : [];
     const people = peopleRes.ok ? await peopleRes.json() : [];
@@ -180,6 +213,9 @@
     const toc = document.getElementById("toc");
     article.innerHTML = `<p class="loading">${I18N[state.lang].loading}</p>`;
     try {
+      if (typeof marked === "undefined") {
+        await waitForMarked();
+      }
       const md = await loadMarkdown();
       article.innerHTML = marked.parse(md, { mangle: false, headerIds: true });
       enhancePersonBlocks(article);
@@ -189,12 +225,44 @@
     }
   }
 
+  function waitForMarked() {
+    return new Promise((resolve, reject) => {
+      let n = 0;
+      const t = setInterval(() => {
+        n += 1;
+        if (typeof marked !== "undefined") {
+          clearInterval(t);
+          resolve();
+        } else if (n > 100) {
+          clearInterval(t);
+          reject(new Error("Markdown library failed to load"));
+        }
+      }, 50);
+    });
+  }
+
   document.querySelectorAll(".lang-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
       state.lang = btn.dataset.lang;
       localStorage.setItem("vw-lang", state.lang);
       render();
     });
+  });
+
+  document.getElementById("anthology").addEventListener("click", (e) => {
+    const btn = e.target.closest(".portrait-zoom");
+    if (!btn) return;
+    const fig = btn.closest(".portrait");
+    const caption = fig ? fig.querySelector("figcaption") : null;
+    openLightbox(btn.dataset.full, caption ? caption.innerHTML : "");
+  });
+
+  lightboxClose.addEventListener("click", closeLightbox);
+  lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeLightbox();
   });
 
   loadMedia().finally(render);
