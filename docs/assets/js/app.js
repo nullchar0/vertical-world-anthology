@@ -14,6 +14,15 @@
       licensePrefix: "Лицензия",
       close: "Закрыть",
       enlarge: "Открыть портрет крупнее",
+      photosNote: "Портреты кликабельны: нажмите, чтобы открыть крупнее.",
+      rotateTable: "На телефоне поверните экран — так таблицу удобнее читать.",
+      backTop: "Наверх",
+      jumpLabel: "Быстрый переход:",
+      jumpGrades: "Категории сложности",
+      jumpBadges: "Плашки статуса",
+      jumpMatrix: "Матрица философий",
+      jumpEras: "Таблица по эпохам",
+      gradesMore: "Подробнее о шкалах оценки",
     },
     en: {
       brand: "History of the Vertical World",
@@ -29,6 +38,15 @@
       licensePrefix: "License",
       close: "Close",
       enlarge: "View larger portrait",
+      photosNote: "Portraits are clickable: tap to view larger.",
+      rotateTable: "On a phone, rotate the screen for easier table reading.",
+      backTop: "Back to top",
+      jumpLabel: "Jump to:",
+      jumpGrades: "Grades",
+      jumpBadges: "Status badges",
+      jumpMatrix: "Philosophy matrix",
+      jumpEras: "Comparative eras",
+      gradesMore: "More about grading systems",
     },
   };
 
@@ -176,15 +194,44 @@
       · <a href="${source}" target="_blank" rel="noopener noreferrer">original</a>${licenseBit}`;
   }
 
-  function portraitHTML(meta) {
+  function portraitDisplayName(href, meta, nodes) {
+    if (nodes && nodes.length) {
+      for (const node of nodes) {
+        for (const a of node.querySelectorAll("a[href]")) {
+          const h = a.getAttribute("href") || "";
+          if (!urlsMatch(h, href)) continue;
+          const name = (a.textContent || "").trim();
+          if (name) return name;
+        }
+      }
+    }
+    if (meta && meta.names) {
+      return (
+        meta.names[state.lang] ||
+        meta.names.ru ||
+        meta.names.en ||
+        Object.values(meta.names)[0] ||
+        ""
+      );
+    }
+    return "";
+  }
+
+  function portraitHTML(meta, displayName) {
     const t = I18N[state.lang];
+    const name = (displayName || "").trim();
+    const nameBit = name
+      ? `<p class="portrait-name">${escapeHtml(name)}</p>`
+      : "";
     if (!meta || !meta.file) {
-      return `<div class="portrait-missing">${t.noPortrait}</div>`;
+      return `<div class="portrait-missing">${nameBit}<span class="portrait-missing-label">${t.noPortrait}</span></div>`;
     }
     const src = mediaSrc(meta.file);
+    const alt = name || t.enlarge;
     return `<figure class="portrait">
-      <button type="button" class="portrait-zoom" data-full="${escapeHtml(src)}" aria-label="${t.enlarge}">
-        <img src="${escapeHtml(src)}" alt="" loading="lazy" decoding="async" />
+      ${nameBit}
+      <button type="button" class="portrait-zoom" data-full="${escapeHtml(src)}" aria-label="${escapeHtml(alt)} — ${t.enlarge}">
+        <img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy" decoding="async" />
       </button>
       <figcaption>${creditHTML(meta)}</figcaption>
     </figure>`;
@@ -222,12 +269,13 @@
     if (!node || node.closest(".person-card")) return false;
     const first = node.querySelector(":scope > strong > a, :scope > a, strong > a");
     if (!first) return false;
-    // Prefer leads that start near the beginning of the node
     const href = first.getAttribute("href") || "";
     if (!isPersonHref(href)) return false;
     const prefix = (node.textContent || "").trim().slice(0, 80);
     const name = (first.textContent || "").trim();
-    return !name || prefix.indexOf(name) <= 24;
+    if (!name) return true;
+    const idx = prefix.indexOf(name);
+    return idx >= 0 && idx <= 24;
   }
 
   function collectPersonHrefs(nodes) {
@@ -236,13 +284,31 @@
       node.querySelectorAll("a[href]").forEach((a) => {
         const href = a.getAttribute("href") || "";
         if (!isPersonHref(href)) return;
+        // Skip place/route wiki pages that are not in the people index
+        if (!findPortrait(href)) {
+          const known = state.people.find((p) =>
+            (p.urls || []).some((u) => urlsMatch(u, href))
+          );
+          if (!known) return;
+        }
         if (!hrefs.some((h) => urlsMatch(h, href))) hrefs.push(href);
       });
     });
     return hrefs;
   }
 
+  function personKey(href, meta) {
+    const slug = personSlug(href, meta);
+    if (slug) return "slug:" + slug;
+    return wikiKeyFromHref(href) || href;
+  }
+
+  function demotePersonLink(a) {
+    a.replaceWith(document.createTextNode(a.textContent || ""));
+  }
+
   function enhancePersonBlocks(root) {
+    const seen = new Set();
     const leads = [...root.querySelectorAll("p, li")].filter(isPersonLead);
     leads.forEach((lead) => {
       if (lead.closest(".person-card")) return;
@@ -251,7 +317,7 @@
       if (lead.tagName === "P") {
         let sib = lead.nextElementSibling;
         while (sib) {
-          if (sib.matches("h1, h2, h3, h4, hr, table")) break;
+          if (sib.matches("h1, h2, h3, h4, hr, table, details")) break;
           if (sib.matches("p") && isPersonLead(sib)) break;
           if (sib.matches("ul, ol, blockquote")) {
             pieces.push(sib);
@@ -270,23 +336,29 @@
       const hrefs = collectPersonHrefs(pieces);
       if (!hrefs.length) return;
 
+      const fresh = hrefs.filter((href) => !seen.has(personKey(href, findPortrait(href))));
+      if (!fresh.length) return;
+
+      fresh.forEach((href) => seen.add(personKey(href, findPortrait(href))));
+
       const card = document.createElement("article");
       card.className = "person-card";
-      if (hrefs.length > 1) card.classList.add("person-card--multi");
+      if (fresh.length > 1) card.classList.add("person-card--multi");
 
-      const primaryMeta = findPortrait(hrefs[0]);
-      const slug = personSlug(hrefs[0], primaryMeta);
+      const primaryMeta = findPortrait(fresh[0]);
+      const slug = personSlug(fresh[0], primaryMeta);
       if (slug) card.id = "person-" + slug;
 
       const media = document.createElement("div");
       media.className = "person-media";
-      hrefs.forEach((href) => {
+      fresh.forEach((href) => {
         const meta = findPortrait(href);
         const wrap = document.createElement("div");
         wrap.className = "person-media-item";
         const mslug = personSlug(href, meta);
         if (mslug) wrap.id = "person-" + mslug;
-        wrap.innerHTML = portraitHTML(meta);
+        const name = portraitDisplayName(href, meta, pieces);
+        wrap.innerHTML = portraitHTML(meta, name);
         media.appendChild(wrap);
       });
 
@@ -298,6 +370,23 @@
       pieces.forEach((el) => body.appendChild(el));
       card.appendChild(media);
       card.appendChild(body);
+    });
+
+    // Second mentions: no extra card/portrait; drop external person links outside their first card
+    root.querySelectorAll("a[href]").forEach((a) => {
+      if (a.classList.contains("person-jump")) return;
+      const href = a.getAttribute("href") || "";
+      if (!isPersonHref(href)) return;
+      const meta = findPortrait(href);
+      const slug = personSlug(href, meta);
+      if (!slug) return;
+      const home = document.getElementById("person-" + slug);
+      if (!home) return;
+      const card = home.classList.contains("person-card")
+        ? home
+        : home.closest(".person-card");
+      if (card && card.contains(a)) return;
+      demotePersonLink(a);
     });
   }
 
@@ -523,6 +612,134 @@
     });
   }
 
+  function ensureHeadingIds(root) {
+    root.querySelectorAll("h2, h3").forEach((h, i) => {
+      if (!h.id) h.id = "sec-" + i;
+      const t = (h.textContent || "").toLowerCase();
+      if (t.includes("категор") || t.includes("grades:")) h.id = "grades";
+      else if (t.includes("плашк") || t.includes("achievement status")) h.id = "badges";
+      else if (t.includes("матрица") || t.includes("matrix")) h.id = "matrix";
+      else if (t.includes("сравнительная") || t.includes("comparative")) h.id = "eras";
+    });
+  }
+
+  function injectQuickNav(root) {
+    const t = I18N[state.lang];
+    const existing = root.querySelector(".quick-nav");
+    if (existing) existing.remove();
+    const targets = [
+      ["grades", t.jumpGrades],
+      ["badges", t.jumpBadges],
+      ["matrix", t.jumpMatrix],
+      ["eras", t.jumpEras],
+    ].filter(([id]) => document.getElementById(id) || root.querySelector("#" + id));
+
+    // resolve against root
+    const links = targets.filter(([id]) => root.querySelector("#" + id));
+    if (!links.length) return;
+
+    const nav = document.createElement("nav");
+    nav.className = "quick-nav";
+    nav.setAttribute("aria-label", t.jumpLabel);
+    const label = document.createElement("span");
+    label.className = "quick-nav-label";
+    label.textContent = t.jumpLabel;
+    nav.appendChild(label);
+    links.forEach(([id, text]) => {
+      const a = document.createElement("a");
+      a.href = "#" + id;
+      a.textContent = text;
+      nav.appendChild(a);
+    });
+
+    const h1 = root.querySelector("h1");
+    if (h1 && h1.nextSibling) h1.parentNode.insertBefore(nav, h1.nextSibling);
+    else root.insertBefore(nav, root.firstChild);
+  }
+
+  function injectPhotosNote(root) {
+    const t = I18N[state.lang];
+    if (root.querySelector(".photos-note")) return;
+    const note = document.createElement("p");
+    note.className = "photos-note";
+    note.textContent = t.photosNote;
+    const method = [...root.querySelectorAll("h2")].find((h) => {
+      const x = (h.textContent || "").toLowerCase();
+      return x.includes("метод") || x.includes("on method");
+    });
+    if (method) {
+      let el = method.nextElementSibling;
+      while (el && !el.matches("h2, hr")) el = el.nextElementSibling;
+      if (el) el.parentNode.insertBefore(note, el);
+      else method.parentNode.appendChild(note);
+    } else {
+      root.insertBefore(note, root.firstChild);
+    }
+  }
+
+  function enhanceTables(root) {
+    const t = I18N[state.lang];
+    root.querySelectorAll("table").forEach((table) => {
+      if (table.closest(".table-wrap")) return;
+      const wrap = document.createElement("div");
+      wrap.className = "table-wrap";
+      const hint = document.createElement("p");
+      hint.className = "table-rotate-hint";
+      hint.innerHTML =
+        `<span class="table-rotate-icon" aria-hidden="true">↻</span> ${escapeHtml(t.rotateTable)}`;
+      table.parentNode.insertBefore(wrap, table);
+      wrap.appendChild(hint);
+      wrap.appendChild(table);
+    });
+  }
+
+  function wrapGradesDetails(root) {
+    const heading = [...root.querySelectorAll("h2")].find((h) => h.id === "grades");
+    if (!heading || heading.dataset.wrapped) return;
+    heading.dataset.wrapped = "1";
+    let el = heading.nextElementSibling;
+    while (el && !el.matches("h2, hr")) {
+      if (el.matches("details")) {
+        el.classList.add("grades-details");
+        break;
+      }
+      el = el.nextElementSibling;
+    }
+  }
+
+  function externalizeLinks(root) {
+    root.querySelectorAll("a[href]").forEach((a) => {
+      const href = a.getAttribute("href") || "";
+      if (!href || href.startsWith("#")) return;
+      if (a.classList.contains("person-jump")) return;
+      a.setAttribute("target", "_blank");
+      a.setAttribute("rel", "noopener noreferrer");
+    });
+    document.querySelectorAll(".site-footer a[href]").forEach((a) => {
+      const href = a.getAttribute("href") || "";
+      if (!href || href.startsWith("#")) return;
+      a.setAttribute("target", "_blank");
+      a.setAttribute("rel", "noopener noreferrer");
+    });
+  }
+
+  function setupBackToTop() {
+    const btn = document.getElementById("back-to-top");
+    if (!btn) return;
+    btn.setAttribute("aria-label", I18N[state.lang].backTop);
+    btn.title = I18N[state.lang].backTop;
+    if (btn.dataset.ready) return;
+    btn.dataset.ready = "1";
+    const onScroll = () => {
+      btn.hidden = window.scrollY < 480;
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    btn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+    onScroll();
+  }
+
   async function loadMarkdown() {
     const res = await fetch(`content/${state.lang}.md`);
     if (!res.ok) throw new Error("Failed to load content");
@@ -540,7 +757,6 @@
     (Array.isArray(catalogArr) ? catalogArr : []).forEach((item) => {
       if (item.id) catalog[item.id] = item;
       if (item.slug) catalog["slug:" + item.slug] = item;
-      // also index decoded wiki ids with spaces
       if (item.id && item.id.startsWith("wiki:")) {
         catalog[item.id.replace(/_/g, " ")] = item;
       }
@@ -560,10 +776,17 @@
       }
       const md = await loadMarkdown();
       article.innerHTML = marked.parse(md, { mangle: false, headerIds: true });
+      ensureHeadingIds(article);
       enhancePersonBlocks(article);
       buildNameIndex();
       linkifyTableNames(article);
+      enhanceTables(article);
+      wrapGradesDetails(article);
+      injectPhotosNote(article);
+      injectQuickNav(article);
+      externalizeLinks(article);
       buildToc(article, toc);
+      setupBackToTop();
     } catch (err) {
       article.innerHTML = `<p class="loading">${escapeHtml(String(err))}</p>`;
     }
@@ -597,8 +820,12 @@
     const btn = e.target.closest(".portrait-zoom");
     if (!btn) return;
     const fig = btn.closest(".portrait");
+    const name = fig ? fig.querySelector(".portrait-name") : null;
     const caption = fig ? fig.querySelector("figcaption") : null;
-    openLightbox(btn.dataset.full, caption ? caption.innerHTML : "");
+    const bits = [];
+    if (name) bits.push(name.outerHTML);
+    if (caption) bits.push(caption.innerHTML);
+    openLightbox(btn.dataset.full, bits.join(""));
   });
 
   lightboxClose.addEventListener("click", closeLightbox);
