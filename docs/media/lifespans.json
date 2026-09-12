@@ -1,0 +1,2349 @@
+[
+  {
+    "slug": "edward-whymper",
+    "names": {
+      "ru": "Эдуард Уимпер",
+      "en": "Edward Whymper"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Edward_Whymper",
+    "qid": "Q319974",
+    "birth": 1840,
+    "death": 1911
+  },
+  {
+    "slug": "georg-winkler",
+    "names": {
+      "ru": "Георг Винклер",
+      "en": "Georg Winkler"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Georg_Winkler",
+    "qid": "Q90751",
+    "birth": 1869,
+    "death": 1888
+  },
+  {
+    "slug": "angelo-dibona",
+    "names": {
+      "ru": "Анджело Дибона",
+      "en": "Angelo Dibona"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Angelo_Dibona",
+    "qid": "Q535859",
+    "birth": 1879,
+    "death": 1956
+  },
+  {
+    "slug": "oliver-perry-smith",
+    "names": {
+      "ru": "Оливер Перри-Смит",
+      "en": "Oliver Perry-Smith"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Oliver_Perry-Smith",
+    "qid": "Q878578",
+    "birth": 1884,
+    "death": 1969
+  },
+  {
+    "slug": "paul-preuss-climber",
+    "names": {
+      "ru": "Пауль Прейсс",
+      "en": "Paul Preuss"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Paul_Preuss_(climber)",
+    "qid": "Q78941",
+    "birth": 1886,
+    "death": 1913
+  },
+  {
+    "slug": "hans-dulfer",
+    "names": {
+      "ru": "Ганс Дюльфер",
+      "en": "Hans Dülfer"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Hans_D%C3%BClfer",
+    "qid": "Q66740",
+    "birth": 1892,
+    "death": 1915
+  },
+  {
+    "slug": "george-mallory",
+    "names": {
+      "ru": "Джордж Мэллори",
+      "en": "George Mallory"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/George_Mallory",
+    "qid": "Q311604",
+    "birth": 1886,
+    "death": 1924
+  },
+  {
+    "slug": "andrew-irvine-mountaineer",
+    "names": {
+      "ru": "Эндрю Ирвин",
+      "en": "Andrew Irvine"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Andrew_Irvine_(mountaineer)",
+    "qid": "Q451007",
+    "birth": 1902,
+    "death": 1924
+  },
+  {
+    "slug": "pierre-allain",
+    "names": {
+      "ru": "Пьер Аллен",
+      "en": "Pierre Allain"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Pierre_Allain",
+    "qid": "Q3383695",
+    "birth": 1904,
+    "death": 2000
+  },
+  {
+    "slug": "riccardo-cassin",
+    "names": {
+      "ru": "Риккардо Кассин",
+      "en": "Riccardo Cassin"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Riccardo_Cassin",
+    "qid": "Q100662",
+    "birth": 1909,
+    "death": 2009
+  },
+  {
+    "slug": "naomi-uemura",
+    "names": {
+      "ru": "Наоми Уэмура",
+      "en": "Naomi Uemura"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Naomi_Uemura",
+    "qid": "Q1322504",
+    "birth": 1941,
+    "death": 1984
+  },
+  {
+    "slug": "emilio-comici",
+    "names": {
+      "ru": "Эмилио Комичи",
+      "en": "Emilio Comici"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Emilio_Comici",
+    "qid": "Q1337465",
+    "birth": 1901,
+    "death": 1940
+  },
+  {
+    "slug": "heinrich-harrer",
+    "names": {
+      "ru": "Хайнрих Харрер",
+      "en": "Heinrich Harrer"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Heinrich_Harrer",
+    "qid": "Q84211",
+    "birth": 1912,
+    "death": 2006
+  },
+  {
+    "slug": "anderl-heckmair",
+    "names": {
+      "ru": "Андерль Хекмайр",
+      "en": "Anderl Heckmair"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Anderl_Heckmair",
+    "qid": "Q69946",
+    "birth": 1906,
+    "death": 2005
+  },
+  {
+    "slug": "fritz-kasparek",
+    "names": {
+      "ru": "Фриц Каспарек",
+      "en": "Fritz Kasparek"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Fritz_Kasparek",
+    "qid": "Q78943",
+    "birth": 1910,
+    "death": 1954
+  },
+  {
+    "slug": "ludwig-vorg",
+    "names": {
+      "ru": "Людвиг Фёрг",
+      "en": "Ludwig Vörg"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ludwig_V%C3%B6rg",
+    "qid": "Q69100",
+    "birth": 1911,
+    "death": 1941
+  },
+  {
+    "slug": "toni-kurz",
+    "names": {
+      "ru": "Тони Курц",
+      "en": "Toni Kurz"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Toni_Kurz",
+    "qid": "Q652387",
+    "birth": 1913,
+    "death": 1936
+  },
+  {
+    "slug": "fritz-wiessner",
+    "names": {
+      "ru": "Фриц Висснер",
+      "en": "Fritz Wiessner"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Fritz_Wiessner",
+    "qid": "Q84738",
+    "birth": 1900,
+    "death": 1988
+  },
+  {
+    "slug": "dudley-wolfe",
+    "names": {
+      "ru": "Дадли Вулф",
+      "en": "Dudley Wolfe"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Dudley_Wolfe",
+    "qid": "Q58010898",
+    "birth": 1896,
+    "death": 1939
+  },
+  {
+    "slug": "maurice-herzog",
+    "names": {
+      "ru": "Морис Эрцог",
+      "en": "Maurice Herzog"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Maurice_Herzog",
+    "qid": "Q505819",
+    "birth": 1919,
+    "death": 2012
+  },
+  {
+    "slug": "louis-lachenal",
+    "names": {
+      "ru": "Луи Лашеналь",
+      "en": "Louis Lachenal"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Louis_Lachenal",
+    "qid": "Q494583",
+    "birth": 1921,
+    "death": 1955
+  },
+  {
+    "slug": "lionel-terray",
+    "names": {
+      "ru": "Лионеля Терре",
+      "en": "Lionel Terray"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Lionel_Terray",
+    "qid": "Q713240",
+    "birth": 1921,
+    "death": 1965
+  },
+  {
+    "slug": "gaston-rebuffat",
+    "names": {
+      "ru": "Гастон Ребюффа",
+      "en": "Gaston Rébuffat"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Gaston_R%C3%A9buffat",
+    "qid": "Q263665",
+    "birth": 1921,
+    "death": 1985
+  },
+  {
+    "slug": "tenzing-norgay",
+    "names": {
+      "ru": "Тенцинг Норгей",
+      "en": "Tenzing Norgay"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Tenzing_Norgay",
+    "qid": "Q80732",
+    "birth": 1914,
+    "death": 1986
+  },
+  {
+    "slug": "edmund-hillary",
+    "names": {
+      "ru": "Эдмунд Хиллари",
+      "en": "Edmund Hillary"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Edmund_Hillary",
+    "qid": "Q33817",
+    "birth": 1919,
+    "death": 2008
+  },
+  {
+    "slug": "nawang-gombu-sherpa",
+    "names": {
+      "ru": "Наванг Гомбу",
+      "en": "Nawang Gombu Sherpa"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Nawang_Gombu_Sherpa",
+    "qid": "Q11991013",
+    "birth": 1936,
+    "death": 2011
+  },
+  {
+    "slug": "pasang-dawa-lama",
+    "names": {
+      "ru": "Пасанг Дава Лама",
+      "en": "Pasang Dawa Lama"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Pasang_Dawa_Lama",
+    "qid": "Q2055244",
+    "birth": 1912,
+    "death": 1982
+  },
+  {
+    "slug": "achille-compagnoni",
+    "names": {
+      "ru": "Ачилле Компаньони",
+      "en": "Achille Compagnoni"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Achille_Compagnoni",
+    "qid": "Q386889",
+    "birth": 1914,
+    "death": 2009
+  },
+  {
+    "slug": "lino-lacedelli",
+    "names": {
+      "ru": "Лино Лачеделли",
+      "en": "Lino Lacedelli"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Lino_Lacedelli",
+    "qid": "Q381456",
+    "birth": 1925,
+    "death": 2009
+  },
+  {
+    "slug": "walter-bonatti",
+    "names": {
+      "ru": "Вальтер Бонатти",
+      "en": "Walter Bonatti"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Walter_Bonatti",
+    "qid": "Q53729",
+    "birth": 1930,
+    "death": 2011
+  },
+  {
+    "slug": "amir-mehdi",
+    "names": {
+      "ru": "Амир Мехди",
+      "en": "Amir Mehdi"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Amir_Mehdi",
+    "qid": "Q16148712",
+    "birth": 1930,
+    "death": 1999
+  },
+  {
+    "slug": "hermann-buhl",
+    "names": {
+      "ru": "Герман Буль",
+      "en": "Hermann Buhl"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Hermann_Buhl",
+    "qid": "Q84301",
+    "birth": 1924,
+    "death": 1957
+  },
+  {
+    "slug": "joe-brown-climber",
+    "names": {
+      "ru": "Джо Браун",
+      "en": "Joe Brown"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Joe_Brown_(climber)",
+    "qid": "Q3179995",
+    "birth": 1930,
+    "death": 2020
+  },
+  {
+    "slug": "george-band",
+    "names": {
+      "ru": "Джордж Бэнд",
+      "en": "George Band"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/George_Band",
+    "qid": "Q488086",
+    "birth": 1929,
+    "death": 2011
+  },
+  {
+    "slug": "kurt-diemberger",
+    "names": {
+      "ru": "Курт Диембергер",
+      "en": "Kurt Diemberger"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Kurt_Diemberger",
+    "qid": "Q78722",
+    "birth": 1932,
+    "death": null
+  },
+  {
+    "slug": "marco-cruz",
+    "names": {
+      "ru": "Марко Крус",
+      "en": "Marco Cruz"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Marco_Cruz",
+    "qid": null,
+    "birth": 1945,
+    "death": null,
+    "source": "manual-correct-wrong-wikidata",
+    "note": "Wikidata Q137212197 looked like wrong person; keep 1945 from anthology"
+  },
+  {
+    "slug": "alain-mesili",
+    "names": {
+      "ru": "Ален Месили",
+      "en": "Alain Mesili"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Alain_Mesili",
+    "qid": "Q4705678",
+    "birth": 1949,
+    "death": null
+  },
+  {
+    "slug": "john-gill-climber",
+    "names": {
+      "ru": "Джон Гилл",
+      "en": "John Gill"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/John_Gill_(climber)",
+    "qid": "Q325036",
+    "birth": 1937,
+    "death": null
+  },
+  {
+    "slug": "david-lama",
+    "names": {
+      "ru": "Давид Лама",
+      "en": "David Lama"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/David_Lama",
+    "qid": "Q86896",
+    "birth": 1990,
+    "death": 2019
+  },
+  {
+    "slug": "thomas-hornbein",
+    "names": {
+      "ru": "Том Хорнбейн",
+      "en": "Thomas Hornbein"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Thomas_Hornbein",
+    "qid": null,
+    "birth": 1930,
+    "death": 2023,
+    "source": "manual"
+  },
+  {
+    "slug": "willi-unsoeld",
+    "names": {
+      "ru": "Вилли Унзёльд",
+      "en": "Willi Unsoeld"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Willi_Unsoeld",
+    "qid": "Q2577599",
+    "birth": 1926,
+    "death": 1979
+  },
+  {
+    "slug": "wang-fuzhou",
+    "names": {
+      "ru": "Ван Фучжоу",
+      "en": "Wang Fuzhou"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Wang_Fuzhou",
+    "qid": "Q3566062",
+    "birth": 1935,
+    "death": 2015
+  },
+  {
+    "slug": "gongbu-mountaineer",
+    "names": {
+      "ru": "Гонгбу (Конбу)",
+      "en": "Gongbu (Konbu)"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Gongbu_(mountaineer)",
+    "qid": "Q25222096",
+    "birth": 1933,
+    "death": 2024
+  },
+  {
+    "slug": "royal-robbins",
+    "names": {
+      "ru": "Ройял Роббинс",
+      "en": "Royal Robbins"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Royal_Robbins",
+    "qid": "Q255480",
+    "birth": 1935,
+    "death": 2017
+  },
+  {
+    "slug": "warren-harding-climber",
+    "names": {
+      "ru": "Уоррена Хардинга",
+      "en": "Warren Harding"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Warren_Harding_(climber)",
+    "qid": "Q2549708",
+    "birth": 1924,
+    "death": 2002
+  },
+  {
+    "slug": "chris-bonington",
+    "names": {
+      "ru": "Крис Бонингтон",
+      "en": "Chris Bonington"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Chris_Bonington",
+    "qid": "Q919542",
+    "birth": 1934,
+    "death": null
+  },
+  {
+    "slug": "yuichiro-miura",
+    "names": {
+      "ru": "Юитиро Миура",
+      "en": "Yuichiro Miura"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Yuichiro_Miura",
+    "qid": null,
+    "birth": 1932,
+    "death": null,
+    "source": "manual"
+  },
+  {
+    "slug": "bernd-arnold",
+    "names": {
+      "ru": "Бернд Арнольд",
+      "en": "Bernd Arnold"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Bernd_Arnold",
+    "qid": "Q823281",
+    "birth": 1947,
+    "death": null
+  },
+  {
+    "slug": "yvon-chouinard",
+    "names": {
+      "ru": "Ивон Шуинар",
+      "en": "Yvon Chouinard"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Yvon_Chouinard",
+    "qid": "Q352268",
+    "birth": 1938,
+    "death": null
+  },
+  {
+    "slug": "pan-duo",
+    "names": {
+      "ru": "Пань До",
+      "en": "Pan Duo"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Pan_Duo",
+    "qid": null,
+    "birth": 1939,
+    "death": 2014,
+    "source": "manual"
+  },
+  {
+    "slug": "xia-boyu",
+    "names": {
+      "ru": "Ся Боюй",
+      "en": "Xia Boyu"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Xia_Boyu",
+    "qid": "Q61623132",
+    "birth": 1949,
+    "death": null
+  },
+  {
+    "slug": "kurt-albert",
+    "names": {
+      "ru": "Курт Альберт",
+      "en": "Kurt Albert"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Kurt_Albert",
+    "qid": "Q72606",
+    "birth": 1954,
+    "death": 2010
+  },
+  {
+    "slug": "jim-bridwell",
+    "names": {
+      "ru": "Джим Бридвелл",
+      "en": "Jim Bridwell"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Jim_Bridwell",
+    "qid": "Q1689048",
+    "birth": 1944,
+    "death": 2018
+  },
+  {
+    "slug": "doug-scott",
+    "names": {
+      "ru": "Дуг Скотт",
+      "en": "Doug Scott"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Doug_Scott",
+    "qid": "Q1251872",
+    "birth": 1941,
+    "death": 2020
+  },
+  {
+    "slug": "peter-habeler",
+    "names": {
+      "ru": "Петер Хабелер",
+      "en": "Peter Habeler"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Peter_Habeler",
+    "qid": "Q495503",
+    "birth": 1942,
+    "death": null
+  },
+  {
+    "slug": "ashraf-aman",
+    "names": {
+      "ru": "Ашраф Аман",
+      "en": "Ashraf Aman"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ashraf_Aman",
+    "qid": "Q4805868",
+    "birth": 1938,
+    "death": null
+  },
+  {
+    "slug": "nazir-sabir",
+    "names": {
+      "ru": "Назир Сабир",
+      "en": "Nazir Sabir"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Nazir_Sabir",
+    "qid": "Q3695577",
+    "birth": 1955,
+    "death": null
+  },
+  {
+    "slug": "krzysztof-wielicki",
+    "names": {
+      "ru": "Кшиштоф Велицкий",
+      "en": "Krzysztof Wielicki"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Krzysztof_Wielicki",
+    "qid": "Q720874",
+    "birth": 1950,
+    "death": null
+  },
+  {
+    "slug": "leszek-cichy",
+    "names": {
+      "ru": "Лешек Цихы",
+      "en": "Leszek Cichy"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Leszek_Cichy",
+    "qid": "Q358662",
+    "birth": 1951,
+    "death": null
+  },
+  {
+    "slug": "ray-jardine",
+    "names": {
+      "ru": "Рэй Джардин",
+      "en": "Ray Jardine"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ray_Jardine",
+    "qid": "Q1675140",
+    "birth": 1944,
+    "death": null
+  },
+  {
+    "slug": "john-bachar",
+    "names": {
+      "ru": "Джон Бахар",
+      "en": "John Bachar"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/John_Bachar",
+    "qid": "Q444100",
+    "birth": 1957,
+    "death": 2009
+  },
+  {
+    "slug": "wanda-rutkiewicz",
+    "names": {
+      "ru": "Ванда Руткевич",
+      "en": "Wanda Rutkiewicz"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Wanda_Rutkiewicz",
+    "qid": "Q237493",
+    "birth": 1943,
+    "death": 1992
+  },
+  {
+    "slug": "maurizio-zanolla",
+    "names": {
+      "ru": "Маурицио Дзанолла, «Маноло»",
+      "en": "Maurizio Zanolla, “Manolo”"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Maurizio_Zanolla",
+    "qid": "Q265563",
+    "birth": 1958,
+    "death": null
+  },
+  {
+    "slug": "wojciech-kurtyka",
+    "names": {
+      "ru": "Войтек Куртыка",
+      "en": "Wojciech Kurtyka"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Wojciech_Kurtyka",
+    "qid": "Q935028",
+    "birth": 1947,
+    "death": null
+  },
+  {
+    "slug": "patrick-edlinger",
+    "names": {
+      "ru": "Патрик Эдленже",
+      "en": "Patrick Edlinger"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Patrick_Edlinger",
+    "qid": "Q558254",
+    "birth": 1960,
+    "death": 2012
+  },
+  {
+    "slug": "bachendri-pal",
+    "names": {
+      "ru": "Бачендри Пал",
+      "en": "Bachendri Pal"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Bachendri_Pal",
+    "qid": "Q492241",
+    "birth": 1954,
+    "death": null
+  },
+  {
+    "slug": "harish-kapadia",
+    "names": {
+      "ru": "Хариш Кападия",
+      "en": "Harish Kapadia"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Harish_Kapadia",
+    "qid": "Q5657883",
+    "birth": 1945,
+    "death": null
+  },
+  {
+    "slug": "tim-macartney-snape",
+    "names": {
+      "ru": "Тим Макарти-Снейп",
+      "en": "Tim Macartney-Snape"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Tim_Macartney-Snape",
+    "qid": "Q5970448",
+    "birth": 1956,
+    "death": null
+  },
+  {
+    "slug": "greg-mortimer",
+    "names": {
+      "ru": "Грег Мортимер",
+      "en": "Greg Mortimer"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Greg_Mortimer",
+    "qid": "Q5606039",
+    "birth": 1952,
+    "death": null
+  },
+  {
+    "slug": "wolfgang-gullich",
+    "names": {
+      "ru": "Вольфганг Гюллих",
+      "en": "Wolfgang Güllich"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Wolfgang_G%C3%BCllich",
+    "qid": "Q62948",
+    "birth": 1960,
+    "death": 1992
+  },
+  {
+    "slug": "erhard-loretan",
+    "names": {
+      "ru": "Эрхард Лоретан",
+      "en": "Erhard Loretan"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Erhard_Loretan",
+    "qid": "Q360202",
+    "birth": 1959,
+    "death": 2011
+  },
+  {
+    "slug": "jean-troillet",
+    "names": {
+      "ru": "Жан Труайе",
+      "en": "Jean Troillet"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Jean_Troillet",
+    "qid": "Q358951",
+    "birth": 1948,
+    "death": null
+  },
+  {
+    "slug": "tomo-cesen",
+    "names": {
+      "ru": "Томо Чесен",
+      "en": "Tomo Česen"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Tomo_%C4%8Cesen",
+    "qid": "Q2032509",
+    "birth": 1959,
+    "death": null
+  },
+  {
+    "slug": "fred-nicole",
+    "names": {
+      "ru": "Фред Николь",
+      "en": "Fred Nicole"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Fred_Nicole",
+    "qid": "Q3086922",
+    "birth": 1970,
+    "death": null
+  },
+  {
+    "slug": "silvo-karo",
+    "names": {
+      "ru": "Сильво Каро",
+      "en": "Silvo Karo"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Silvo_Karo",
+    "qid": "Q54656220",
+    "birth": 1960,
+    "death": null
+  },
+  {
+    "slug": "jerry-moffatt",
+    "names": {
+      "ru": "Джерри Моффатт",
+      "en": "Jerry Moffatt"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Jerry_Moffatt",
+    "qid": "Q436172",
+    "birth": 1963,
+    "death": null
+  },
+  {
+    "slug": "ben-moon",
+    "names": {
+      "ru": "Бен Мун",
+      "en": "Ben Moon"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ben_Moon",
+    "qid": "Q4886179",
+    "birth": 1966,
+    "death": null,
+    "source": "manual"
+  },
+  {
+    "slug": "lydia-bradey",
+    "names": {
+      "ru": "Лидия Брэйди",
+      "en": "Lydia Bradey"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Lydia_Bradey",
+    "qid": "Q16210013",
+    "birth": 1961,
+    "death": null
+  },
+  {
+    "slug": "greg-child",
+    "names": {
+      "ru": "Грег Чайлд",
+      "en": "Greg Child"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Greg_Child",
+    "qid": "Q3116201",
+    "birth": 1957,
+    "death": null
+  },
+  {
+    "slug": "fred-rouhling",
+    "names": {
+      "ru": "Фред Рулинг",
+      "en": "Fred Rouhling"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Fred_Rouhling",
+    "qid": "Q3086946",
+    "birth": 1970,
+    "death": null
+  },
+  {
+    "slug": "lynn-hill",
+    "names": {
+      "ru": "Линн Хилл",
+      "en": "Lynn Hill"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Lynn_Hill",
+    "qid": "Q469872",
+    "birth": 1961,
+    "death": null
+  },
+  {
+    "slug": "alison-hargreaves",
+    "names": {
+      "ru": "Элисон Харгривз",
+      "en": "Alison Hargreaves"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Alison_Hargreaves",
+    "qid": "Q450881",
+    "birth": 1962,
+    "death": 1995
+  },
+  {
+    "slug": "pasang-lhamu-sherpa",
+    "names": {
+      "ru": "Пасанг Лхаму Шерпа",
+      "en": "Pasang Lhamu Sherpa"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Pasang_Lhamu_Sherpa",
+    "qid": "Q425584",
+    "birth": 1961,
+    "death": 1993
+  },
+  {
+    "slug": "santosh-yadav",
+    "names": {
+      "ru": "Сантош Ядав",
+      "en": "Santosh Yadav"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Santosh_Yadav",
+    "qid": "Q7420682",
+    "birth": 1967,
+    "death": null
+  },
+  {
+    "slug": "ang-rita",
+    "names": {
+      "ru": "Анг Рита",
+      "en": "Ang Rita"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ang_Rita",
+    "qid": null,
+    "birth": 1948,
+    "death": 2020,
+    "source": "manual"
+  },
+  {
+    "slug": "babu-chiri-sherpa",
+    "names": {
+      "ru": "Бабу Чири Шерпа",
+      "en": "Babu Chiri Sherpa"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Babu_Chiri_Sherpa",
+    "qid": "Q2900044",
+    "birth": 1965,
+    "death": 2001
+  },
+  {
+    "slug": "yasushi-yamanoi",
+    "names": {
+      "ru": "Ясуси Яманои",
+      "en": "Yasushi Yamanoi"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Yasushi_Yamanoi",
+    "qid": null,
+    "birth": 1965,
+    "death": null,
+    "source": "manual"
+  },
+  {
+    "slug": "anatoli-boukreev",
+    "names": {
+      "ru": "Анатолий Букреев",
+      "en": "Anatoli Boukreev"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Anatoli_Boukreev",
+    "qid": "Q487950",
+    "birth": 1958,
+    "death": 1997
+  },
+  {
+    "slug": "rob-hall",
+    "names": {
+      "ru": "Роб Холл",
+      "en": "Rob Hall"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Rob_Hall",
+    "qid": "Q1743880",
+    "birth": 1961,
+    "death": 1996
+  },
+  {
+    "slug": "henry-todd-mountaineer",
+    "names": {
+      "ru": "Генри Тодд",
+      "en": "Henry Todd"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Henry_Todd_(mountaineer)",
+    "qid": "Q137162242",
+    "birth": 1945,
+    "death": 2025
+  },
+  {
+    "slug": "katie-brown-climber",
+    "names": {
+      "ru": "Кэти Браун",
+      "en": "Katie Brown"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Katie_Brown_(climber)",
+    "qid": "Q16210042",
+    "birth": 1981,
+    "death": null
+  },
+  {
+    "slug": "chris-sharma",
+    "names": {
+      "ru": "Крис Шарма",
+      "en": "Chris Sharma"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Chris_Sharma",
+    "qid": "Q722754",
+    "birth": 1981,
+    "death": null
+  },
+  {
+    "slug": "josune-bereziartu",
+    "names": {
+      "ru": "Хосуне Бересиарту",
+      "en": "Josune Bereziartu"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Josune_Bereziartu",
+    "qid": "Q2628279",
+    "birth": 1972,
+    "death": null
+  },
+  {
+    "slug": "lhakpa-sherpa",
+    "names": {
+      "ru": "Лхакпа Шерпа",
+      "en": "Lhakpa Sherpa"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Lhakpa_Sherpa",
+    "qid": "Q24572241",
+    "birth": 1974,
+    "death": null
+  },
+  {
+    "slug": "carlos-carsolio",
+    "names": {
+      "ru": "Карлос Карсолио",
+      "en": "Carlos Carsolio"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Carlos_Carsolio",
+    "qid": "Q1042800",
+    "birth": 1962,
+    "death": null
+  },
+  {
+    "slug": "um-hong-gil",
+    "names": {
+      "ru": "Ум Хонг-гиль",
+      "en": "Um Hong-gil"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Um_Hong-gil",
+    "qid": "Q497519",
+    "birth": 1960,
+    "death": null
+  },
+  {
+    "slug": "li-zhixin",
+    "names": {
+      "ru": "Ли Чжисинь",
+      "en": "Li Zhixin"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Li_Zhixin",
+    "qid": "Q3237596",
+    "birth": 1962,
+    "death": null
+  },
+  {
+    "slug": "dean-potter",
+    "names": {
+      "ru": "Дин Поттер",
+      "en": "Dean Potter"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Dean_Potter",
+    "qid": "Q345788",
+    "birth": 1972,
+    "death": 2015
+  },
+  {
+    "slug": "steph-davis",
+    "names": {
+      "ru": "Стеф Дэвис",
+      "en": "Steph Davis"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Steph_Davis",
+    "qid": "Q7608098",
+    "birth": 1973,
+    "death": null
+  },
+  {
+    "slug": "didier-berthod",
+    "names": {
+      "ru": "Дидье Берто",
+      "en": "Didier Berthod"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Didier_Berthod",
+    "qid": "Q3026928",
+    "birth": 1981,
+    "death": null
+  },
+  {
+    "slug": "simone-moro",
+    "names": {
+      "ru": "Симоне Моро",
+      "en": "Simone Moro"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Simone_Moro",
+    "qid": "Q578501",
+    "birth": 1967,
+    "death": null
+  },
+  {
+    "slug": "denis-urubko",
+    "names": {
+      "ru": "Денис Урубко",
+      "en": "Denis Urubko"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Denis_Urubko",
+    "qid": "Q264664",
+    "birth": 1973,
+    "death": null
+  },
+  {
+    "slug": "steve-house",
+    "names": {
+      "ru": "Стив Хаус",
+      "en": "Steve House"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Steve_House",
+    "qid": "Q57243987",
+    "birth": 1970,
+    "death": null,
+    "source": "manual"
+  },
+  {
+    "slug": "jose-antonio-delgado",
+    "names": {
+      "ru": "Хосе Антонио Дельгадо",
+      "en": "José Antonio Delgado"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Jos%C3%A9_Antonio_Delgado",
+    "qid": "Q6291415",
+    "birth": 1965,
+    "death": 2006
+  },
+  {
+    "slug": "jaime-vinals",
+    "names": {
+      "ru": "Хайме Виньялс",
+      "en": "Jaime Viñals"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Jaime_Vi%C3%B1als",
+    "qid": "Q520441",
+    "birth": 1960,
+    "death": null
+  },
+  {
+    "slug": "sibusiso-vilane",
+    "names": {
+      "ru": "Сибусисо Вилане",
+      "en": "Sibusiso Vilane"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Sibusiso_Vilane",
+    "qid": "Q7507321",
+    "birth": 1970,
+    "death": null
+  },
+  {
+    "slug": "park-young-seok",
+    "names": {
+      "ru": "Пак Ён-сок",
+      "en": "Park Young-seok"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Park_Young-seok",
+    "qid": "Q497151",
+    "birth": 1963,
+    "death": 2011
+  },
+  {
+    "slug": "cathy-o-dowd",
+    "names": {
+      "ru": "Кэти О'Дауд",
+      "en": "Cathy O’Dowd"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Cathy_O%27Dowd",
+    "qid": "Q5053476",
+    "birth": 1968,
+    "death": null
+  },
+  {
+    "slug": "apa-sherpa",
+    "names": {
+      "ru": "Апа Шерпа",
+      "en": "Apa Sherpa"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Apa_Sherpa",
+    "qid": "Q455447",
+    "birth": 1960,
+    "death": null
+  },
+  {
+    "slug": "phurba-tashi",
+    "names": {
+      "ru": "Пхурба Таши",
+      "en": "Phurba Tashi"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Phurba_Tashi",
+    "qid": "Q2089176",
+    "birth": 1971,
+    "death": null
+  },
+  {
+    "slug": "sonnie-trotter",
+    "names": {
+      "ru": "Сонни Троттер",
+      "en": "Sonnie Trotter"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Sonnie_Trotter",
+    "qid": "Q7561968",
+    "birth": 1979,
+    "death": null
+  },
+  {
+    "slug": "kei-taniguchi-mountaineer",
+    "names": {
+      "ru": "Кэй Танигути",
+      "en": "Kei Taniguchi"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Kei_Taniguchi_(mountaineer)",
+    "qid": null,
+    "birth": 1973,
+    "death": 2015,
+    "source": "manual"
+  },
+  {
+    "slug": "kazuya-hiraide",
+    "names": {
+      "ru": "Кадзуя Хираиде",
+      "en": "Kazuya Hiraide"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Kazuya_Hiraide",
+    "qid": "Q6381760",
+    "birth": 1979,
+    "death": 2024
+  },
+  {
+    "slug": "kenro-nakajima",
+    "names": {
+      "ru": "Кенро Накадзиму",
+      "en": "Kenro Nakajima"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Kenro_Nakajima",
+    "qid": "Q24870158",
+    "birth": 1984,
+    "death": 2024
+  },
+  {
+    "slug": "marko-prezelj",
+    "names": {
+      "ru": "Марко Презель",
+      "en": "Marko Prezelj"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Marko_Prezelj",
+    "qid": "Q449459",
+    "birth": 1965,
+    "death": null
+  },
+  {
+    "slug": "rolando-garibotti",
+    "names": {
+      "ru": "Роландо Гариботти",
+      "en": "Rolando Garibotti"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Rolando_Garibotti",
+    "qid": "Q16729191",
+    "birth": 1953,
+    "death": null
+  },
+  {
+    "slug": "colin-haley",
+    "names": {
+      "ru": "Колин Хейли",
+      "en": "Colin Haley"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Colin_Haley",
+    "qid": "Q56289597",
+    "birth": 1984,
+    "death": null
+  },
+  {
+    "slug": "silvia-vidal",
+    "names": {
+      "ru": "Сильвия Видал",
+      "en": "Silvia Vidal"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Silvia_Vidal",
+    "qid": "Q25432139",
+    "birth": 1970,
+    "death": null
+  },
+  {
+    "slug": "jain-kim",
+    "names": {
+      "ru": "Ким Джа-ин",
+      "en": "Jain Kim"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Jain_Kim",
+    "qid": "Q578141",
+    "birth": 1988,
+    "death": null
+  },
+  {
+    "slug": "ashima-shiraishi",
+    "names": {
+      "ru": "Ашима Шираиси",
+      "en": "Ashima Shiraishi"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ashima_Shiraishi",
+    "qid": "Q2866511",
+    "birth": 2001,
+    "death": null
+  },
+  {
+    "slug": "alex-puccio",
+    "names": {
+      "ru": "Алекс Пуччо",
+      "en": "Alex Puccio"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Alex_Puccio",
+    "qid": "Q2833012",
+    "birth": 1989,
+    "death": null
+  },
+  {
+    "slug": "angela-eiter",
+    "names": {
+      "ru": "Анджела Айтер",
+      "en": "Angela Eiter"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Angela_Eiter",
+    "qid": "Q434612",
+    "birth": 1986,
+    "death": null
+  },
+  {
+    "slug": "tommy-caldwell",
+    "names": {
+      "ru": "Томми Колдуэлл",
+      "en": "Tommy Caldwell"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Tommy_Caldwell",
+    "qid": "Q2440958",
+    "birth": 1978,
+    "death": null
+  },
+  {
+    "slug": "beth-rodden",
+    "names": {
+      "ru": "Бет Родден",
+      "en": "Beth Rodden"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Beth_Rodden",
+    "qid": "Q2900078",
+    "birth": 1980,
+    "death": null
+  },
+  {
+    "slug": "ueli-steck",
+    "names": {
+      "ru": "Ули Штек",
+      "en": "Ueli Steck"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ueli_Steck",
+    "qid": "Q676356",
+    "birth": 1976,
+    "death": 2017
+  },
+  {
+    "slug": "gerlinde-kaltenbrunner",
+    "names": {
+      "ru": "Герлинде Кальтенбруннер",
+      "en": "Gerlinde Kaltenbrunner"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Gerlinde_Kaltenbrunner",
+    "qid": "Q261478",
+    "birth": 1970,
+    "death": null
+  },
+  {
+    "slug": "hansjorg-auer",
+    "names": {
+      "ru": "Хансйорг Ауэр",
+      "en": "Hansjörg Auer"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Hansj%C3%B6rg_Auer",
+    "qid": "Q1583841",
+    "birth": 1984,
+    "death": 2019
+  },
+  {
+    "slug": "edurne-pasaban",
+    "names": {
+      "ru": "Эдурне Пасабан",
+      "en": "Edurne Pasaban"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Edurne_Pasaban",
+    "qid": "Q253244",
+    "birth": 1973,
+    "death": null
+  },
+  {
+    "slug": "oh-eun-sun",
+    "names": {
+      "ru": "О Ын-сон",
+      "en": "Oh Eun-sun"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Oh_Eun-sun",
+    "qid": "Q235081",
+    "birth": 1966,
+    "death": null
+  },
+  {
+    "slug": "go-mi-young",
+    "names": {
+      "ru": "Ко Ми-ён",
+      "en": "Go Mi-young"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Go_Mi-young",
+    "qid": "Q494880",
+    "birth": 1967,
+    "death": 2009
+  },
+  {
+    "slug": "marc-andre-leclerc",
+    "names": {
+      "ru": "Марк-Андре Леклерк",
+      "en": "Marc-André Leclerc"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Marc-Andre_Leclerc",
+    "qid": null,
+    "birth": 1992,
+    "death": 2018,
+    "source": "manual"
+  },
+  {
+    "slug": "ali-sadpara",
+    "names": {
+      "ru": "Али Садпара",
+      "en": "Ali Sadpara"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ali_Sadpara",
+    "qid": "Q24575984",
+    "birth": 1976,
+    "death": 2021
+  },
+  {
+    "slug": "samina-baig",
+    "names": {
+      "ru": "Самина Баиг",
+      "en": "Samina Baig"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Samina_Baig",
+    "qid": "Q15633550",
+    "birth": 1990,
+    "death": null
+  },
+  {
+    "slug": "kim-chang-ho-climber",
+    "names": {
+      "ru": "Ким Чан-хо",
+      "en": "Kim Chang-ho"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Kim_Chang-ho_(climber)",
+    "qid": "Q16704382",
+    "birth": 1969,
+    "death": 2018
+  },
+  {
+    "slug": "arunima-sinha",
+    "names": {
+      "ru": "Арунима Синха",
+      "en": "Arunima Sinha"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Arunima_Sinha",
+    "qid": "Q13422431",
+    "birth": 1988,
+    "death": null
+  },
+  {
+    "slug": "kami-rita-sherpa",
+    "names": {
+      "ru": "Ками Рита Шерпа",
+      "en": "Kami Rita Sherpa"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Kami_Rita_Sherpa",
+    "qid": null,
+    "birth": 1970,
+    "death": null,
+    "source": "manual"
+  },
+  {
+    "slug": "cholita-climbers",
+    "names": {
+      "ru": "Чолитас-эскаладорас",
+      "en": "Cholita Climbers"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Cholita_Climbers",
+    "qid": "Q61791670",
+    "birth": null,
+    "death": null,
+    "note": "group; no personal lifespan"
+  },
+  {
+    "slug": "cecilia-llusco-alana",
+    "names": {
+      "ru": "Сесилия Льюско Аланья",
+      "en": "Cecilia Llusco Alaña"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Cecilia_Llusco_Ala%C3%B1a",
+    "qid": "Q131590887",
+    "birth": 1985,
+    "death": null,
+    "source": "manual"
+  },
+  {
+    "slug": "adam-ondra",
+    "names": {
+      "ru": "Адам Ондра",
+      "en": "Adam Ondra"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Adam_Ondra",
+    "qid": "Q350568",
+    "birth": 1993,
+    "death": null
+  },
+  {
+    "slug": "shauna-coxsey",
+    "names": {
+      "ru": "Шона Кокси",
+      "en": "Shauna Coxsey"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Shauna_Coxsey",
+    "qid": "Q3481586",
+    "birth": 1993,
+    "death": null
+  },
+  {
+    "slug": "aleksandra-miros-aw",
+    "names": {
+      "ru": "Александра Мирослав",
+      "en": "Aleksandra Mirosław"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Aleksandra_Miros%C5%82aw",
+    "qid": "Q13523813",
+    "birth": 1994,
+    "death": null
+  },
+  {
+    "slug": "deng-lijuan",
+    "names": {
+      "ru": "Дэн Лицзюань",
+      "en": "Deng Lijuan"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Deng_Lijuan",
+    "qid": "Q128693540",
+    "birth": 2000,
+    "death": null
+  },
+  {
+    "slug": "pan-yufei",
+    "names": {
+      "ru": "Пань Юфэй",
+      "en": "Pan Yufei"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Pan_Yufei",
+    "qid": "Q97185375",
+    "birth": 2000,
+    "death": null
+  },
+  {
+    "slug": "song-yiling",
+    "names": {
+      "ru": "Сун Илинь",
+      "en": "Song Yiling"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Song_Yiling",
+    "qid": "Q83437653",
+    "birth": 2001,
+    "death": null
+  },
+  {
+    "slug": "akiyo-noguchi",
+    "names": {
+      "ru": "Акиё Ногути",
+      "en": "Akiyo Noguchi"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Akiyo_Noguchi",
+    "qid": "Q607412",
+    "birth": 1989,
+    "death": null
+  },
+  {
+    "slug": "tomoa-narasaki",
+    "names": {
+      "ru": "Томоа Нарасаки",
+      "en": "Tomoa Narasaki"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Tomoa_Narasaki",
+    "qid": "Q27077361",
+    "birth": 1996,
+    "death": null
+  },
+  {
+    "slug": "sorato-anraku",
+    "names": {
+      "ru": "Сорато Анраку",
+      "en": "Sorato Anraku"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Sorato_Anraku",
+    "qid": "Q117581816",
+    "birth": 2006,
+    "death": null
+  },
+  {
+    "slug": "ai-mori",
+    "names": {
+      "ru": "Аи Мори",
+      "en": "Ai Mori"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ai_Mori",
+    "qid": "Q64613436",
+    "birth": 2003,
+    "death": null
+  },
+  {
+    "slug": "margo-hayes",
+    "names": {
+      "ru": "Марго Хейс",
+      "en": "Margo Hayes"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Margo_Hayes",
+    "qid": "Q28870003",
+    "birth": 1998,
+    "death": null
+  },
+  {
+    "slug": "william-bosi",
+    "names": {
+      "ru": "Уилл Боси",
+      "en": "William Bosi"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/William_Bosi",
+    "qid": "Q56884405",
+    "birth": 1998,
+    "death": null
+  },
+  {
+    "slug": "nalle-hukkataival",
+    "names": {
+      "ru": "Налле Хуккатаивал",
+      "en": "Nalle Hukkataival"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Nalle_Hukkataival",
+    "qid": "Q3335388",
+    "birth": 1986,
+    "death": null
+  },
+  {
+    "slug": "shawn-raboutou",
+    "names": {
+      "ru": "Шон Рабуту",
+      "en": "Shawn Raboutou"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Shawn_Raboutou",
+    "qid": "Q113299984",
+    "birth": 1998,
+    "death": null
+  },
+  {
+    "slug": "aidan-roberts",
+    "names": {
+      "ru": "Эйдан Робертс",
+      "en": "Aidan Roberts"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Aidan_Roberts",
+    "qid": null,
+    "birth": 2002,
+    "death": null,
+    "source": "manual"
+  },
+  {
+    "slug": "nives-meroi",
+    "names": {
+      "ru": "Нивес Мерой",
+      "en": "Nives Meroi"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Nives_Meroi",
+    "qid": "Q445575",
+    "birth": 1961,
+    "death": null
+  },
+  {
+    "slug": "gary-connery",
+    "names": {
+      "ru": "Гэри Коннери",
+      "en": "Gary Connery"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Gary_Connery",
+    "qid": "Q3098525",
+    "birth": 1969,
+    "death": null
+  },
+  {
+    "slug": "jokke-sommer",
+    "names": {
+      "ru": "Йокке Зоммер",
+      "en": "Jokke Sommer"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Jokke_Sommer",
+    "qid": "Q15135957",
+    "birth": 1986,
+    "death": null
+  },
+  {
+    "slug": "mingma-gyalje-sherpa",
+    "names": {
+      "ru": "Мингма Гьялдже Шерпа («Мингма G»)",
+      "en": "Mingma Gyalje Sherpa (“Mingma G”)"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Mingma_Gyalje_Sherpa",
+    "qid": "Q106839160",
+    "birth": 1986,
+    "death": null
+  },
+  {
+    "slug": "ines-papert",
+    "names": {
+      "ru": "Инэс Паперт",
+      "en": "Ines Papert"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ines_Papert",
+    "qid": "Q1474566",
+    "birth": 1974,
+    "death": null
+  },
+  {
+    "slug": "mayan-smith-gobat",
+    "names": {
+      "ru": "Майян Смит-Гобат",
+      "en": "Mayan Smith-Gobat"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Mayan_Smith-Gobat",
+    "qid": "Q3302928",
+    "birth": 1979,
+    "death": null
+  },
+  {
+    "slug": "brette-harrington",
+    "names": {
+      "ru": "Бретт Харрингтон",
+      "en": "Brette Harrington"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Brette_Harrington",
+    "qid": "Q54860910",
+    "birth": 1992,
+    "death": null
+  },
+  {
+    "slug": "brooke-raboutou",
+    "names": {
+      "ru": "Брук Рабуту",
+      "en": "Brooke Raboutou"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Brooke_Raboutou",
+    "qid": "Q2926117",
+    "birth": 2001,
+    "death": null
+  },
+  {
+    "slug": "laura-rogora",
+    "names": {
+      "ru": "Лаура Рогора",
+      "en": "Laura Rogora"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Laura_Rogora",
+    "qid": "Q32042376",
+    "birth": 2001,
+    "death": null
+  },
+  {
+    "slug": "babsi-zangerl",
+    "names": {
+      "ru": "Бабси Цангерль",
+      "en": "Babsi Zangerl"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Babsi_Zangerl",
+    "qid": "Q52145990",
+    "birth": 1988,
+    "death": null
+  },
+  {
+    "slug": "jacopo-larcher",
+    "names": {
+      "ru": "Якопо Ларчер",
+      "en": "Jacopo Larcher"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Jacopo_Larcher",
+    "qid": "Q122624554",
+    "birth": 1989,
+    "death": null
+  },
+  {
+    "slug": "tita-piaz",
+    "names": {
+      "ru": "Тита Пиац",
+      "en": "Tita Piaz"
+    },
+    "wiki": "https://it.wikipedia.org/wiki/Tita_Piaz",
+    "qid": "Q969117",
+    "birth": 1879,
+    "death": 1948
+  },
+  {
+    "slug": "enzo-cozzolino",
+    "names": {
+      "ru": "Энцо Коццолино",
+      "en": "Enzo Cozzolino"
+    },
+    "wiki": "https://it.wikipedia.org/wiki/Enzo_Cozzolino",
+    "qid": "Q18811881",
+    "birth": 1948,
+    "death": 1972
+  },
+  {
+    "slug": "otto-herzog-bergsteiger",
+    "names": {
+      "ru": "Отто Херцог",
+      "en": "Otto Herzog"
+    },
+    "wiki": "https://de.wikipedia.org/wiki/Otto_Herzog_(Bergsteiger)",
+    "qid": "Q774371",
+    "birth": 1888,
+    "death": 1964
+  },
+  {
+    "slug": "willo-welzenbach",
+    "names": {
+      "ru": "Вилло Вельценбах",
+      "en": "Willo Welzenbach"
+    },
+    "wiki": "https://de.wikipedia.org/wiki/Willo_Welzenbach",
+    "qid": "Q75485",
+    "birth": 1900,
+    "death": 1934
+  },
+  {
+    "slug": "robert-schauer",
+    "names": {
+      "ru": "Роберт Шауэр",
+      "en": "Robert Schauer"
+    },
+    "wiki": "https://de.wikipedia.org/wiki/Robert_Schauer",
+    "qid": "Q1250463",
+    "birth": 1953,
+    "death": null
+  },
+  {
+    "slug": "beat-kammerlander",
+    "names": {
+      "ru": "Бит Каммерландер",
+      "en": "Beat Kammerlander"
+    },
+    "wiki": "https://de.wikipedia.org/wiki/Beat_Kammerlander",
+    "qid": "Q813072",
+    "birth": 1959,
+    "death": null
+  },
+  {
+    "slug": "ueli-gegenschatz",
+    "names": {
+      "ru": "Уэли Гегеншац",
+      "en": "Ueli Gegenschatz"
+    },
+    "wiki": "https://de.wikipedia.org/wiki/Ueli_Gegenschatz",
+    "qid": "Q666346",
+    "birth": 1971,
+    "death": 2009
+  },
+  {
+    "slug": "krylenko-nikolai-vasilevich",
+    "names": {
+      "ru": "Николай Васильевич Крыленко",
+      "en": "Nikolai Krylenko"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/Крыленко,_Николай_Васильевич",
+    "qid": "Q1346112",
+    "birth": 1885,
+    "death": 1938
+  },
+  {
+    "slug": "abalakov-evgenii-mihailovich",
+    "names": {
+      "ru": "Евгений Михайлович Абалаков",
+      "en": "Yevgeny Abalakov"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/Абалаков,_Евгений_Михайлович",
+    "qid": "Q1323041",
+    "birth": 1907,
+    "death": 1948
+  },
+  {
+    "slug": "abalakov-vitalii-mihailovich",
+    "names": {
+      "ru": "Виталий Михайлович Абалаков",
+      "en": "Vitaly Abalakov"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/Абалаков,_Виталий_Михайлович",
+    "qid": "Q2360530",
+    "birth": 1905,
+    "death": 1986
+  },
+  {
+    "slug": "antonovich-ivan-iosifovich",
+    "names": {
+      "ru": "Иван Иосифович Антонович",
+      "en": "Ivan Antonovich"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%B8%D1%87,_%D0%98%D0%B2%D0%B0%D0%BD_%D0%98%D0%BE%D1%81%D0%B8%D1%84%D0%BE%D0%B2%D0%B8%D1%87",
+    "qid": "Q65502468",
+    "birth": 1909,
+    "death": 1994
+  },
+  {
+    "slug": "maestri-chezare",
+    "names": {
+      "ru": "Чезаре Маэстри",
+      "en": "Cesare Maestri"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%8D%D1%81%D1%82%D1%80%D0%B8,_%D0%A7%D0%B5%D0%B7%D0%B0%D1%80%D0%B5",
+    "qid": "Q323226",
+    "birth": 1929,
+    "death": 2021
+  },
+  {
+    "slug": "hergiani-mihail-vissarionovich",
+    "names": {
+      "ru": "Михаил Виссарионович Хергиани",
+      "en": "Mikhail Khergiani"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/Хергиани,_Михаил_Виссарионович",
+    "qid": "Q1964389",
+    "birth": 1935,
+    "death": 1969
+  },
+  {
+    "slug": "shataeva-elvira-sergeevna",
+    "names": {
+      "ru": "Эльвира Сергеевна Шатаева",
+      "en": "Elvira Shatayeva"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D1%82%D0%B0%D0%B5%D0%B2%D0%B0,_%D0%AD%D0%BB%D1%8C%D0%B2%D0%B8%D1%80%D0%B0_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%BD%D0%B0",
+    "qid": "Q88486335",
+    "birth": 1938,
+    "death": 1974
+  },
+  {
+    "slug": "tabei-dzyunko",
+    "names": {
+      "ru": "Дзюнко Табэи",
+      "en": "Junko Tabei"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B1%D1%8D%D0%B8,_%D0%94%D0%B7%D1%8E%D0%BD%D0%BA%D0%BE",
+    "qid": "Q234491",
+    "birth": 1939,
+    "death": 2016
+  },
+  {
+    "slug": "messner-rainhold",
+    "names": {
+      "ru": "Райнхольд Месснер",
+      "en": "Reinhold Messner"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%81%D1%81%D0%BD%D0%B5%D1%80,_%D0%A0%D0%B0%D0%B9%D0%BD%D1%85%D0%BE%D0%BB%D1%8C%D0%B4",
+    "qid": "Q189307",
+    "birth": 1944,
+    "death": null
+  },
+  {
+    "slug": "balyberdin-vladimir-sergeevich",
+    "names": {
+      "ru": "Владимир Сергеевич Балыбердин",
+      "en": "Vladimir Balyberdin"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/Балыбердин,_Владимир_Сергеевич",
+    "qid": "Q4077014",
+    "birth": 1948,
+    "death": 1994
+  },
+  {
+    "slug": "bershov-sergei-igorevich",
+    "names": {
+      "ru": "Сергей Игоревич Бершов",
+      "en": "Sergey Bershov"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D1%80%D1%88%D0%BE%D0%B2,_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%98%D0%B3%D0%BE%D1%80%D0%B5%D0%B2%D0%B8%D1%87",
+    "qid": "Q4085284",
+    "birth": 1947,
+    "death": null
+  },
+  {
+    "slug": "turkevich-mihail-mihailovich",
+    "names": {
+      "ru": "Михаил Михайлович Туркевич",
+      "en": "Mikhail Turkevich"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%BA%D0%B5%D0%B2%D0%B8%D1%87,_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87",
+    "qid": "Q4466057",
+    "birth": 1953,
+    "death": 2003
+  },
+  {
+    "slug": "valiev-kazbek-magomedovich",
+    "names": {
+      "ru": "Казбек Магомедович Валиев",
+      "en": "Kazbek Valiyev"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D0%B8%D0%B5%D0%B2,_%D0%9A%D0%B0%D0%B7%D0%B1%D0%B5%D0%BA_%D0%9C%D0%B0%D0%B3%D0%BE%D0%BC%D0%B5%D0%B4%D0%BE%D0%B2%D0%B8%D1%87",
+    "qid": null,
+    "birth": 1952,
+    "death": null,
+    "source": "manual"
+  },
+  {
+    "slug": "hrischatyi-valerii-aleksandrovich",
+    "names": {
+      "ru": "Валерий Александрович Хрищатый",
+      "en": "Valery Khrishchaty"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%A5%D1%80%D0%B8%D1%89%D0%B0%D1%82%D1%8B%D0%B9,_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D0%B8%D0%B9_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+    "qid": null,
+    "birth": 1951,
+    "death": 1993,
+    "source": "manual"
+  },
+  {
+    "slug": "mamleev-yurii-vitalevich",
+    "names": {
+      "ru": "Юрий Витальевич Мамлеев",
+      "en": "Yuri Mamleyev"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BC%D0%BB%D0%B5%D0%B5%D0%B2,_%D0%AE%D1%80%D0%B8%D0%B9_%D0%92%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87",
+    "qid": "Q1968235",
+    "birth": 1931,
+    "death": 2015
+  },
+  {
+    "slug": "balezin-valerii-viktorovich",
+    "names": {
+      "ru": "Валерий Викторович Балезин",
+      "en": "Valery Balezin"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%BB%D0%B5%D0%B7%D0%B8%D0%BD,_%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D0%B8%D0%B9_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+    "qid": "Q4076567",
+    "birth": 1953,
+    "death": null
+  },
+  {
+    "slug": "kukuchka-ezhi",
+    "names": {
+      "ru": "Ежи Кукучка",
+      "en": "Jerzy Kukuczka"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BA%D1%83%D1%87%D0%BA%D0%B0,_%D0%95%D0%B6%D0%B8",
+    "qid": "Q312401",
+    "birth": 1948,
+    "death": 1989
+  },
+  {
+    "slug": "destivel-katrin",
+    "names": {
+      "ru": "Катрин Дестивель",
+      "en": "Catherine Destivelle"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B5%D0%BB%D1%8C,_%D0%9A%D0%B0%D1%82%D1%80%D0%B8%D0%BD",
+    "qid": "Q462229",
+    "birth": 1960,
+    "death": null
+  },
+  {
+    "slug": "huber-aleksandr",
+    "names": {
+      "ru": "Александр Хубер",
+      "en": "Alexander Huber"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%A5%D1%83%D0%B1%D0%B5%D1%80,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80",
+    "qid": "Q1671753",
+    "birth": 1968,
+    "death": null,
+    "source": "manual"
+  },
+  {
+    "slug": "rozov-valerii-vladimirovich",
+    "names": {
+      "ru": "Валерий Владимирович Розов",
+      "en": "Valery Rozov"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/Розов,_Валерий_Владимирович",
+    "qid": "Q3553745",
+    "birth": 1964,
+    "death": 2017
+  },
+  {
+    "slug": "honnold-aleks",
+    "names": {
+      "ru": "Алекс Хоннольд",
+      "en": "Alex Honnold"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%A5%D0%BE%D0%BD%D0%BD%D0%BE%D0%BB%D1%8C%D0%B4,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81",
+    "qid": "Q979249",
+    "birth": 1985,
+    "death": null
+  },
+  {
+    "slug": "midtbe-magnus",
+    "names": {
+      "ru": "Магнус Мидтбё",
+      "en": "Magnus Midtbø"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%B4%D1%82%D0%B1%D1%91,_%D0%9C%D0%B0%D0%B3%D0%BD%D1%83%D1%81",
+    "qid": "Q145078",
+    "birth": 1988,
+    "death": null
+  },
+  {
+    "slug": "purdzha-nirmal",
+    "names": {
+      "ru": "Нирмал «Нимс» Пурджа",
+      "en": "Nirmal “Nims” Purja"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D1%80%D0%B4%D0%B6%D0%B0,_%D0%9D%D0%B8%D1%80%D0%BC%D0%B0%D0%BB",
+    "qid": "Q64027141",
+    "birth": 1983,
+    "death": 2026
+  },
+  {
+    "slug": "garnbret-yanya",
+    "names": {
+      "ru": "Янья Гарнбрет",
+      "en": "Janja Garnbret"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D1%80%D0%BD%D0%B1%D1%80%D0%B5%D1%82,_%D0%AF%D0%BD%D1%8C%D1%8F",
+    "qid": "Q26209646",
+    "birth": 1999,
+    "death": null
+  },
+  {
+    "slug": "bargel-andzhei",
+    "names": {
+      "ru": "Анджей Баргель",
+      "en": "Andrzej Bargiel"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D1%80%D0%B3%D0%B5%D0%BB%D1%8C,_%D0%90%D0%BD%D0%B4%D0%B6%D0%B5%D0%B9",
+    "qid": "Q4759579",
+    "birth": 1988,
+    "death": null
+  },
+  {
+    "slug": "odintsov-aleksandr-yurevich",
+    "names": {
+      "ru": "Александр Юрьевич Одинцов",
+      "en": "Alexander Odintsov"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%9E%D0%B4%D0%B8%D0%BD%D1%86%D0%BE%D0%B2,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%AE%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87",
+    "qid": null,
+    "birth": 1957,
+    "death": null,
+    "source": "manual"
+  },
+  {
+    "slug": "harila-kristin",
+    "names": {
+      "ru": "Кристин Харила",
+      "en": "Kristin Harila"
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D0%B8%D0%BB%D0%B0,_%D0%9A%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%BD",
+    "qid": "Q114344847",
+    "birth": 1986,
+    "death": null
+  },
+  {
+    "slug": "guido-magnone",
+    "names": {
+      "ru": "Гвидо Маньоне",
+      "en": "Guido Magnone"
+    },
+    "wiki": "https://fr.wikipedia.org/wiki/Guido_Magnone",
+    "qid": "Q3119446",
+    "birth": 1917,
+    "death": 2012
+  },
+  {
+    "slug": "valeri-babanov",
+    "names": {
+      "ru": "Валерий Бабанов",
+      "en": "Valeri Babanov"
+    },
+    "wiki": "https://fr.wikipedia.org/wiki/Valeri_Babanov",
+    "qid": "Q368094",
+    "birth": 1964,
+    "death": null
+  },
+  {
+    "slug": "sean-villanueva-o-driscoll",
+    "names": {
+      "ru": "Шон Виллануэва О'Дрисколл",
+      "en": "Sean Villanueva O’Driscoll"
+    },
+    "wiki": "https://fr.wikipedia.org/wiki/Sean_Villanueva_O%E2%80%99Driscoll",
+    "qid": "Q1973823",
+    "birth": 1981,
+    "death": null
+  },
+  {
+    "slug": "nina-caprez",
+    "names": {
+      "ru": "Нина Капре",
+      "en": "Nina Caprez"
+    },
+    "wiki": "https://fr.wikipedia.org/wiki/Nina_Caprez",
+    "qid": "Q117385",
+    "birth": 1986,
+    "death": null
+  },
+  {
+    "slug": "andrzej-zawada",
+    "names": {
+      "ru": "Анджей Завада",
+      "en": "Andrzej Zawada"
+    },
+    "wiki": "https://pl.wikipedia.org/wiki/Andrzej_Zawada",
+    "qid": "Q508646",
+    "birth": 1928,
+    "death": 2000
+  },
+  {
+    "slug": "iker-pou",
+    "names": {
+      "ru": "Икер Поу",
+      "en": "Iker Pou"
+    },
+    "wiki": "https://es.wikipedia.org/wiki/Iker_Pou",
+    "qid": "Q3792505",
+    "birth": 1977,
+    "death": null
+  },
+  {
+    "slug": "eneko-pou",
+    "names": {
+      "ru": "Энеко Поу",
+      "en": "Eneko Pou"
+    },
+    "wiki": "https://es.wikipedia.org/wiki/Eneko_Pou",
+    "qid": "Q12256847",
+    "birth": 1974,
+    "death": null
+  },
+  {
+    "slug": "vladimir-racek",
+    "names": {
+      "ru": "Владимир Рацек",
+      "en": "Vladimir Racek"
+    },
+    "wiki": null,
+    "qid": null,
+    "birth": 1911,
+    "death": 1980,
+    "source": "manual"
+  },
+  {
+    "slug": "ian-howell",
+    "names": {
+      "ru": "Иан Хауэлл",
+      "en": "Ian Howell"
+    },
+    "wiki": null,
+    "qid": null,
+    "birth": 1937,
+    "death": null,
+    "error": "no wiki url",
+    "source": "manual"
+  },
+  {
+    "slug": "yan-dongdong",
+    "names": {
+      "ru": "Янь Дундун",
+      "en": "Yan Dongdong"
+    },
+    "wiki": null,
+    "qid": null,
+    "birth": 1984,
+    "death": 2012,
+    "source": "manual"
+  },
+  {
+    "slug": "scott-noy",
+    "names": {
+      "ru": "Скотт Ной",
+      "en": "Scott Noy"
+    },
+    "wiki": null,
+    "qid": null,
+    "birth": null,
+    "death": null,
+    "error": "no wiki url"
+  },
+  {
+    "slug": "alexander-ruchkin",
+    "names": {
+      "ru": "Александр Ручкин",
+      "en": "Alexander Ruchkin"
+    },
+    "wiki": null,
+    "qid": null,
+    "birth": 1963,
+    "death": null,
+    "source": "manual"
+  },
+  {
+    "slug": "yevgeny-vinogradsky",
+    "names": {
+      "ru": "Евгений Виноградский",
+      "en": "Yevgeny Vinogradsky"
+    },
+    "wiki": null,
+    "qid": null,
+    "birth": 1951,
+    "death": null,
+    "source": "manual"
+  }
+]
