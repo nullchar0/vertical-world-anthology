@@ -101,7 +101,7 @@ World War I turned the Dolomites into a front line. From 1915 to 1918 Italian an
 - In the war — defence of the Caucasus and teaching at the military mountaineering school.
 - Died in Moscow on the night of **24 March 1948** together with Yuri Artsishevsky; the official version — carbon monoxide poisoning from a faulty heater. Even then the version raised doubts among some contemporaries.
 
-There were in fact three Abalakov brothers — elder Mikhail (1904), **[Vitaly](https://ru.wikipedia.org/wiki/Абалаков,_Виталий_Михайлович)** (1906–1986) and Yevgeny — but two entered mountaineering history: Mikhail did not practise the sport. Vitaly invented the ice-screw self-extraction loop (“Abalakov thread”), still used unchanged; multiple champion and Honoured Coach of the USSR — organizer of the Soviet training system.
+There were in fact three Abalakov brothers — elder Mikhail (1904), **[Vitaly Abalakov](https://ru.wikipedia.org/wiki/Абалаков,_Виталий_Михайлович)** (1906–1986) and Yevgeny — but two entered mountaineering history: Mikhail did not practise the sport. Vitaly invented the ice-screw self-extraction loop (“Abalakov thread”), still used unchanged; multiple champion and Honoured Coach of the USSR — organizer of the Soviet training system.
 
 **[Riccardo Cassin](https://en.wikipedia.org/wiki/Riccardo_Cassin)** (Italy, 1909–2009) — self-taught former blacksmith’s apprentice, founder of the “Nuovi Mai” mountain group in Lecco, begins a series of first ascents that will lead him to the Walker Spur five years later. Later he will open the north-east face of Piz Badile (1937) and the Cassin Ridge on Denali (1961); his firm for decades produced carabiners and ice tools. Lived to 100, still climbing in deep old age.
 

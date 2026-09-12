@@ -21,8 +21,8 @@
     "id": "wiki:Абалаков,_Виталий_Михайлович",
     "slug": "abalakov-vitalii-mihailovich",
     "names": {
-      "ru": "Виталий",
-      "en": "Vitaly"
+      "ru": "Виталий Абалаков",
+      "en": "Vitaly Abalakov"
     },
     "file": "media/portraits/abalakov-vitalii-mihailovich.jpg",
     "artist": "Unknown authorUnknown author",
@@ -158,7 +158,7 @@
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
+    "wiki_file": "Alex_Puccio_USA_2017_(cropped).jpg",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
@@ -176,7 +176,7 @@
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
+    "wiki_file": "Muhammad_Ali_Sadpara.jpg",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
@@ -708,7 +708,7 @@
       "ru": "Дадли Вулф",
       "en": "Dudley Wolfe"
     },
-    "file": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Dudley_Wolfe%2C_1917.jpg",
+    "file": "media/portraits/dudley-wolfe.jpg",
     "artist": "Unknown authorUnknown author",
     "credit": "Unknown authorUnknown author",
     "source_url": "https://commons.wikimedia.org/wiki/File:Dudley_Wolfe,_1917.jpg",
@@ -717,8 +717,7 @@
     "license_short": "Public domain",
     "license_url": "",
     "wiki_file": "Dudley Wolfe, 1917.jpg",
-    "found_via": "commons-search",
-    "note": "Remote Wikimedia URL (local download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1))"
+    "found_via": "commons-search"
   },
   {
     "id": "wiki:Edurne_Pasaban",
@@ -735,7 +734,7 @@
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
+    "wiki_file": "Edurne_Pasaban_recibe_el_Premio_Vasco_Universal_2010_4_(crop).jpg",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
@@ -753,7 +752,7 @@
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
+    "wiki_file": "Edward_Whymper.jpg",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
@@ -789,7 +788,7 @@
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
+    "wiki_file": "Enzo_Cozzolino.jpg",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
@@ -807,7 +806,7 @@
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
+    "wiki_file": "Fred_Nicole_-_Portrait_Zoom.png",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
@@ -843,7 +842,7 @@
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
+    "wiki_file": "Fritz_Wiessner_en_1986.jpg",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
@@ -879,7 +878,7 @@
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
+    "wiki_file": "Georg_Winkler.jpg",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
@@ -1393,7 +1392,7 @@
       "ru": "Лхакпа Шерпа",
       "en": "Lhakpa Sherpa"
     },
-    "file": "https://upload.wikimedia.org/wikipedia/commons/3/36/Portrait_de_Lhakpa_Sherpa.jpg",
+    "file": "media/portraits/lhakpa-sherpa.jpg",
     "artist": "Hibrideacus",
     "credit": "Hibrideacus",
     "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_de_Lhakpa_Sherpa.jpg",
@@ -1456,7 +1455,7 @@
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
+    "wiki_file": "Lydia_Bradey_ONZM_(cropped).jpg",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
@@ -1474,7 +1473,7 @@
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
+    "wiki_file": "Lynn_Hill_in_Stavanger_during_world_cup_in_climbing_2015_crop.JPG",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
@@ -1528,7 +1527,7 @@
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
+    "wiki_file": "2019_Sport_&_Speed_Open_Nationals_-_Awards_-_Margo_Hayes_-_01.jpg",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
@@ -1546,7 +1545,7 @@
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
+    "wiki_file": "Marko_Prezelj.jpg",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
@@ -1636,7 +1635,7 @@
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
+    "wiki_file": "Nalle_Hukkataival_Sisu_Masters_2013_Boulder_Competition.jpg",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
@@ -1690,7 +1689,7 @@
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
+    "wiki_file": "Ashraf_Aman_with_Hayat_Durrani_&_Nazir_Sabir_in_Quetta_..JPG",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
@@ -1708,7 +1707,7 @@
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
+    "wiki_file": "Nives_Meroi_-_Festival_del_Cammino_2024.jpg",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
@@ -1815,7 +1814,7 @@
     "commons_url": "https://commons.wikimedia.org/wiki/File:Pasang.jpg",
     "license": "CC BY-SA 3.0",
     "license_short": "CC BY-SA 3.0",
-    "license_url": "",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "wiki_file": "Pasang.jpg",
     "found_via": "wikipedia-pageimage"
   },
@@ -1853,6 +1852,24 @@
     "license_short": "Public domain",
     "license_url": "",
     "wiki_file": "Paul_Preuß1.jpg",
+    "found_via": "wikipedia-pageimage"
+  },
+  {
+    "id": "wiki:Peter_Habeler",
+    "slug": "peter-habeler",
+    "names": {
+      "ru": "Петер Хабелер",
+      "en": "Peter Habeler"
+    },
+    "file": "media/portraits/peter-habeler.jpg",
+    "artist": "Svenboi78",
+    "credit": "Svenboi78",
+    "source_url": "https://commons.wikimedia.org/wiki/File:PeterHabeler.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:PeterHabeler.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_short": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "wiki_file": "PeterHabeler.jpg",
     "found_via": "wikipedia-pageimage"
   },
   {
@@ -2356,7 +2373,7 @@
     "license": "Free / open license (Wikipedia pilicense=free)",
     "license_short": "free",
     "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-    "wiki_file": "",
+    "wiki_file": "Yvon_Chouinard_by_Tom_Frost.jpg",
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   }
 ]

@@ -24,20 +24,27 @@ python3 scripts/build_public_content.py
 
 ## Портреты и атрибуция
 
-Скрипт тянет **только свободно лицензированные** pageimage с Wikipedia/Wikimedia Commons (`pilicense=free`) и сохраняет локальные копии + каталог с автором, ссылкой на первоисточник и лицензией:
+Подробная инструкция (в т.ч. **как добавить фото после разрешения автора**): [`docs/media/PORTRAITS.md`](docs/media/PORTRAITS.md)
+
+Скрипты тянут **только свободно лицензированные** изображения (Wikipedia `pilicense=free` / Commons / Wikidata P18):
 
 ```bash
 python3 scripts/build_people_index.py
-python3 scripts/fetch_commons_portraits.py
-# после докачки — уточнить artist/license из Commons:
-python3 scripts/rebuild_catalog_from_portraits.py
+python3 scripts/fetch_open_portraits.py --allow-remote
+python3 scripts/enrich_catalog_attribution.py
+```
+
+После разрешения правообладателя:
+
+```bash
+python3 scripts/add_manual_portrait.py --slug <slug> --file ./photo.jpg \
+  --artist "…" --source-url "…" --license "Permission from author…"
 ```
 
 - Каталог: `docs/media/catalog.json`
 - Файлы: `docs/media/portraits/`
-- На сайте у каждого портрета выводится credit + original + license
-- Если свободного изображения нет — заглушка «нет свободного портрета» (не подставляем fair-use / пресс-фото)
-- Покрытие растёт повторными запусками `fetch_commons_portraits.py` (скрипт умеет продолжать с места остановки; Wikimedia иногда отвечает 429 — нужны паузы)
+- На сайте у каждого портрета — credit + original + license
+- Fair use / пресс-фото без явного разрешения **не** подставляем
 
 Первый проход обычно закрывает далеко не всех: у многих современных спортсменов на Википедии только non-free фото. Это ожидаемо и правильнее, чем нарушать права.
 

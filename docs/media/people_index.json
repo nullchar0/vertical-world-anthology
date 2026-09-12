@@ -154,6 +154,20 @@
     "slug": "mellori-dzhordzh"
   },
   {
+    "id": "wiki:Andrew_Irvine_(mountaineer)",
+    "names": {
+      "ru": "Эндрю Ирвин",
+      "en": "Andrew Irvine"
+    },
+    "urls": [
+      "https://en.wikipedia.org/wiki/Andrew_Irvine_(mountaineer)"
+    ],
+    "wiki_titles": {
+      "en": "Andrew_Irvine_(mountaineer)"
+    },
+    "slug": "andrew-irvine-mountaineer"
+  },
+  {
     "id": "wiki:Pierre_Allain",
     "names": {
       "ru": "Пьер Аллен",
@@ -198,8 +212,8 @@
   {
     "id": "wiki:Абалаков,_Виталий_Михайлович",
     "names": {
-      "ru": "Виталий",
-      "en": "Vitaly"
+      "ru": "Виталий Абалаков",
+      "en": "Vitaly Abalakov"
     },
     "urls": [
       "https://ru.wikipedia.org/wiki/Абалаков,_Виталий_Михайлович"
@@ -364,6 +378,20 @@
     "slug": "maurice-herzog"
   },
   {
+    "id": "wiki:Louis_Lachenal",
+    "names": {
+      "ru": "Луи Лашеналь",
+      "en": "Louis Lachenal"
+    },
+    "urls": [
+      "https://en.wikipedia.org/wiki/Louis_Lachenal"
+    ],
+    "wiki_titles": {
+      "en": "Louis_Lachenal"
+    },
+    "slug": "louis-lachenal"
+  },
+  {
     "id": "wiki:Lionel_Terray",
     "names": {
       "ru": "Лионеля Терре",
@@ -432,6 +460,20 @@
     "slug": "tenzing-norgay"
   },
   {
+    "id": "wiki:Edmund_Hillary",
+    "names": {
+      "ru": "Эдмунд Хиллари",
+      "en": "Edmund Hillary"
+    },
+    "urls": [
+      "https://en.wikipedia.org/wiki/Edmund_Hillary"
+    ],
+    "wiki_titles": {
+      "en": "Edmund_Hillary"
+    },
+    "slug": "edmund-hillary"
+  },
+  {
     "id": "wiki:Nawang_Gombu_Sherpa",
     "names": {
       "ru": "Наванг Гомбу",
@@ -474,6 +516,19 @@
     "slug": "achille-compagnoni"
   },
   {
+    "id": "wiki:%D0%9B%D0%B0%D1%87%D0%B5%D0%B4%D0%B5%D0%BB%D0%BB%D0%B8,_%D0%9B%D0%B8%D0%BD%D0%BE",
+    "names": {
+      "ru": "Лино Лачеделли"
+    },
+    "urls": [
+      "https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D1%87%D0%B5%D0%B4%D0%B5%D0%BB%D0%BB%D0%B8,_%D0%9B%D0%B8%D0%BD%D0%BE"
+    ],
+    "wiki_titles": {
+      "ru": "Лачеделли,_Лино"
+    },
+    "slug": "lachedelli-lino"
+  },
+  {
     "id": "wiki:Walter_Bonatti",
     "names": {
       "ru": "Вальтер Бонатти",
@@ -486,6 +541,20 @@
       "en": "Walter_Bonatti"
     },
     "slug": "walter-bonatti"
+  },
+  {
+    "id": "wiki:Amir_Mehdi",
+    "names": {
+      "ru": "Амир Мехди",
+      "en": "Amir Mehdi"
+    },
+    "urls": [
+      "https://en.wikipedia.org/wiki/Amir_Mehdi"
+    ],
+    "wiki_titles": {
+      "en": "Amir_Mehdi"
+    },
+    "slug": "amir-mehdi"
   },
   {
     "id": "wiki:Hermann_Buhl",
@@ -542,6 +611,32 @@
       "en": "Kurt_Diemberger"
     },
     "slug": "kurt-diemberger"
+  },
+  {
+    "id": "wiki:Guido_Magnone",
+    "names": {
+      "ru": "Гвидо Маньоне",
+      "en": "Guido Magnone"
+    },
+    "urls": [
+      "https://fr.wikipedia.org/wiki/Guido_Magnone"
+    ],
+    "wiki_titles": {
+      "fr": "Guido_Magnone"
+    },
+    "slug": "guido-magnone"
+  },
+  {
+    "id": "ext:3cead284ed1a",
+    "names": {
+      "ru": "очерк El Comercio",
+      "en": "El Comercio profile"
+    },
+    "urls": [
+      "https://elcomercio.pe/archivo-elcomercio/cesar-morales-arnao-el-episodio-de-primera-vez-que-una-bandera-peruana-flameo-en-la-cima-de-europa-junto-a-un-chullo-y-una-moneda-de-un-sol-mont-blanc-andinista-alpinista-y-periodista-primer-peruano-en-llegar-al-monte-blanco-1961-hace-60-anos-chullu-andino-nnsp-noticia/"
+    ],
+    "wiki_titles": {},
+    "slug": "el-comercio-profile"
   },
   {
     "id": "wiki:Marco_Cruz",
@@ -628,6 +723,20 @@
     "slug": "thomas-hornbein"
   },
   {
+    "id": "wiki:Willi_Unsoeld",
+    "names": {
+      "ru": "Вилли Унзёльд",
+      "en": "Willi Unsoeld"
+    },
+    "urls": [
+      "https://en.wikipedia.org/wiki/Willi_Unsoeld"
+    ],
+    "wiki_titles": {
+      "en": "Willi_Unsoeld"
+    },
+    "slug": "willi-unsoeld"
+  },
+  {
     "id": "wiki:Wang_Fuzhou",
     "names": {
       "ru": "Ван Фучжоу",
@@ -640,6 +749,20 @@
       "en": "Wang_Fuzhou"
     },
     "slug": "wang-fuzhou"
+  },
+  {
+    "id": "wiki:Gongbu_(mountaineer)",
+    "names": {
+      "ru": "Гонгбу (Конбу)",
+      "en": "Gongbu (Konbu)"
+    },
+    "urls": [
+      "https://en.wikipedia.org/wiki/Gongbu_(mountaineer)"
+    ],
+    "wiki_titles": {
+      "en": "Gongbu_(mountaineer)"
+    },
+    "slug": "gongbu-mountaineer"
   },
   {
     "id": "wiki:Royal_Robbins",
@@ -878,6 +1001,20 @@
     "slug": "messner-rainhold"
   },
   {
+    "id": "wiki:Peter_Habeler",
+    "names": {
+      "ru": "Петер Хабелер",
+      "en": "Peter Habeler"
+    },
+    "urls": [
+      "https://en.wikipedia.org/wiki/Peter_Habeler"
+    ],
+    "wiki_titles": {
+      "en": "Peter_Habeler"
+    },
+    "slug": "peter-habeler"
+  },
+  {
     "id": "wiki:Ashraf_Aman",
     "names": {
       "ru": "Ашраф Аман",
@@ -932,6 +1069,20 @@
       "en": "Krzysztof_Wielicki"
     },
     "slug": "krzysztof-wielicki"
+  },
+  {
+    "id": "wiki:Leszek_Cichy",
+    "names": {
+      "ru": "Лешек Цихы",
+      "en": "Leszek Cichy"
+    },
+    "urls": [
+      "https://en.wikipedia.org/wiki/Leszek_Cichy"
+    ],
+    "wiki_titles": {
+      "en": "Leszek_Cichy"
+    },
+    "slug": "leszek-cichy"
   },
   {
     "id": "wiki:Ray_Jardine",
@@ -1116,6 +1267,20 @@
     "slug": "wojciech-kurtyka"
   },
   {
+    "id": "wiki:Robert_Schauer",
+    "names": {
+      "ru": "Роберт Шауэр",
+      "en": "Robert Schauer"
+    },
+    "urls": [
+      "https://de.wikipedia.org/wiki/Robert_Schauer"
+    ],
+    "wiki_titles": {
+      "de": "Robert_Schauer"
+    },
+    "slug": "robert-schauer"
+  },
+  {
     "id": "wiki:Patrick_Edlinger",
     "names": {
       "ru": "Патрик Эдленже",
@@ -1186,6 +1351,20 @@
     "slug": "tim-macartney-snape"
   },
   {
+    "id": "wiki:Greg_Mortimer",
+    "names": {
+      "ru": "Грег Мортимер",
+      "en": "Greg Mortimer"
+    },
+    "urls": [
+      "https://en.wikipedia.org/wiki/Greg_Mortimer"
+    ],
+    "wiki_titles": {
+      "en": "Greg_Mortimer"
+    },
+    "slug": "greg-mortimer"
+  },
+  {
     "id": "wiki:Wolfgang_G%C3%BCllich",
     "names": {
       "ru": "Вольфганг Гюллих",
@@ -1212,6 +1391,20 @@
       "en": "Erhard_Loretan"
     },
     "slug": "erhard-loretan"
+  },
+  {
+    "id": "wiki:Jean_Troillet",
+    "names": {
+      "ru": "Жан Труайе",
+      "en": "Jean Troillet"
+    },
+    "urls": [
+      "https://en.wikipedia.org/wiki/Jean_Troillet"
+    ],
+    "wiki_titles": {
+      "en": "Jean_Troillet"
+    },
+    "slug": "jean-troillet"
   },
   {
     "id": "wiki:Tomo_%C4%8Cesen",
@@ -1690,6 +1883,18 @@
     "slug": "steve-house"
   },
   {
+    "id": "ext:6af8a6b699f3",
+    "names": {
+      "ru": "некролог El Espectador",
+      "en": "El Espectador obituary"
+    },
+    "urls": [
+      "https://www.elespectador.com/ambiente/juan-pablo-ruiz-el-inolvidable-banquero-de-las-cimas/"
+    ],
+    "wiki_titles": {},
+    "slug": "el-espectador-obituary"
+  },
+  {
     "id": "wiki:Jos%C3%A9_Antonio_Delgado",
     "names": {
       "ru": "Хосе Антонио Дельгадо",
@@ -1746,6 +1951,18 @@
     "slug": "park-young-seok"
   },
   {
+    "id": "ext:0a9fc22d62f2",
+    "names": {
+      "ru": "Climb ZA",
+      "en": "Climb ZA"
+    },
+    "urls": [
+      "https://www.climbing.co.za/"
+    ],
+    "wiki_titles": {},
+    "slug": "climb-za"
+  },
+  {
     "id": "wiki:Cathy_O%27Dowd",
     "names": {
       "ru": "Кэти О'Дауд",
@@ -1788,6 +2005,18 @@
     "slug": "phurba-tashi"
   },
   {
+    "id": "ext:6332e53f0b15",
+    "names": {
+      "ru": "очерк",
+      "en": "profile"
+    },
+    "urls": [
+      "https://en.gmw.cn/2022-08/05/content_37750837.htm"
+    ],
+    "wiki_titles": {},
+    "slug": "profile"
+  },
+  {
     "id": "wiki:Sonnie_Trotter",
     "names": {
       "ru": "Сонни Троттер",
@@ -1800,6 +2029,18 @@
       "en": "Sonnie_Trotter"
     },
     "slug": "sonnie-trotter"
+  },
+  {
+    "id": "ext:fba04fde9e6f",
+    "names": {
+      "ru": "профиль/интервью",
+      "en": "profile/interview"
+    },
+    "urls": [
+      "https://www.powercompanyclimbing.com/blog/2019/8/7/ep-139-damage-control-in-chaos-with-lee-cossey"
+    ],
+    "wiki_titles": {},
+    "slug": "profile-interview"
   },
   {
     "id": "wiki:Iker_Pou",
@@ -1816,6 +2057,20 @@
     "slug": "iker-pou"
   },
   {
+    "id": "wiki:Eneko_Pou",
+    "names": {
+      "ru": "Энеко Поу",
+      "en": "Eneko Pou"
+    },
+    "urls": [
+      "https://es.wikipedia.org/wiki/Eneko_Pou"
+    ],
+    "wiki_titles": {
+      "es": "Eneko_Pou"
+    },
+    "slug": "eneko-pou"
+  },
+  {
     "id": "wiki:Kei_Taniguchi_(mountaineer)",
     "names": {
       "ru": "Кэй Танигути",
@@ -1828,6 +2083,20 @@
       "en": "Kei_Taniguchi_(mountaineer)"
     },
     "slug": "kei-taniguchi-mountaineer"
+  },
+  {
+    "id": "wiki:Kazuya_Hiraide",
+    "names": {
+      "ru": "Кадзуя Хираиде",
+      "en": "Kazuya Hiraide"
+    },
+    "urls": [
+      "https://en.wikipedia.org/wiki/Kazuya_Hiraide"
+    ],
+    "wiki_titles": {
+      "en": "Kazuya_Hiraide"
+    },
+    "slug": "kazuya-hiraide"
   },
   {
     "id": "wiki:Kenro_Nakajima",
@@ -1856,6 +2125,18 @@
       "fr": "Valeri_Babanov"
     },
     "slug": "valeri-babanov"
+  },
+  {
+    "id": "ext:64d05a01d78f",
+    "names": {
+      "ru": "сайт",
+      "en": "site"
+    },
+    "urls": [
+      "https://www.babanov.com/"
+    ],
+    "wiki_titles": {},
+    "slug": "site"
   },
   {
     "id": "wiki:Marko_Prezelj",
@@ -1898,6 +2179,18 @@
       "en": "Colin_Haley"
     },
     "slug": "colin-haley"
+  },
+  {
+    "id": "ext:4390301b2389",
+    "names": {
+      "ru": "Alpinist",
+      "en": "Alpinist"
+    },
+    "urls": [
+      "https://alpinist.com/newswire/yan-dongdong/"
+    ],
+    "wiki_titles": {},
+    "slug": "alpinist"
   },
   {
     "id": "ext:cac9dabb553d",
@@ -2594,6 +2887,18 @@
     "slug": "jokke-sommer"
   },
   {
+    "id": "ext:6f74f15dc3dd",
+    "names": {
+      "ru": "espenfadnes.com",
+      "en": "espenfadnes.com"
+    },
+    "urls": [
+      "https://espenfadnes.com/"
+    ],
+    "wiki_titles": {},
+    "slug": "espenfadnes-com"
+  },
+  {
     "id": "wiki:Mingma_Gyalje_Sherpa",
     "names": {
       "ru": "Мингма Гьялдже Шерпа («Мингма G»)",
@@ -2692,6 +2997,30 @@
     "slug": "laura-rogora"
   },
   {
+    "id": "ext:93fe94242a87",
+    "names": {
+      "ru": "TNF bio",
+      "en": "TNF bio"
+    },
+    "urls": [
+      "https://www.thenorthface.com/en-us/about-us/athletes/felipe-camargo"
+    ],
+    "wiki_titles": {},
+    "slug": "tnf-bio"
+  },
+  {
+    "id": "ext:bff68d732ce7",
+    "names": {
+      "ru": "очерк",
+      "en": "profile"
+    },
+    "urls": [
+      "https://geartips.club/blog/en/between-mountains-and-stories-eliseu-frechou-helped-build-climbing-in-brazil/"
+    ],
+    "wiki_titles": {},
+    "slug": "profile"
+  },
+  {
     "id": "wiki:Babsi_Zangerl",
     "names": {
       "ru": "Бабси Цангерль",
@@ -2732,5 +3061,18 @@
       "fr": "Nina_Caprez"
     },
     "slug": "nina-caprez"
+  },
+  {
+    "id": "wiki:Lino_Lacedelli",
+    "names": {
+      "en": "Lino Lacedelli"
+    },
+    "urls": [
+      "https://en.wikipedia.org/wiki/Lino_Lacedelli"
+    ],
+    "wiki_titles": {
+      "en": "Lino_Lacedelli"
+    },
+    "slug": "lino-lacedelli"
   }
 ]
