@@ -2053,6 +2053,24 @@
     "note": "Run scripts/rebuild_catalog_from_portraits.py to fill exact Commons artist/license."
   },
   {
+    "id": "wiki:Robert_Schauer",
+    "slug": "robert-schauer",
+    "names": {
+      "ru": "Роберт Шауэр",
+      "en": "Robert Schauer"
+    },
+    "file": "media/portraits/robert-schauer.jpg",
+    "artist": "Bernhard Holub",
+    "credit": "Bernhard Holub",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Robert_Schauer_2025_BHO-2347.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Robert_Schauer_2025_BHO-2347.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_short": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "wiki_file": "File:Robert Schauer 2025 BHO-2347.jpg",
+    "note": "Commons free portrait; verified then web-compressed."
+  },
+  {
     "id": "wiki:Royal_Robbins",
     "slug": "royal-robbins",
     "names": {
